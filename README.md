@@ -6,6 +6,11 @@ python GBK_to_FASTA.py path_to_gbk_file
 python GBK_to_FASTA.py files/CP011547.gbk output_file.fas
 ```
 
+---
+
+# Links
+* biopython reference ([biopython.org](http://biopython.org/DIST/docs/tutorial/Tutorial.html)).
+* Download from genbank ([reddit.com](https://www.reddit.com/r/bioinformatics/comments/5h4qnc/what_is_the_best_way_to_download_genbank_data/)).
 
 # Sobre el trabajo
 
