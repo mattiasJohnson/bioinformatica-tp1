@@ -10,23 +10,32 @@ def main():
         
     file_path = sys.argv[1]
 
-    # Try parsing and saving .gbk file as a .fas
     try:
         for seq_record in SeqIO.parse(file_path, "genbank"):
+
+            reading_frames = []
+
+            # Translate in forward direction
+            for start_idx in range(3):
+                cutoff_end = (3 - start_idx) % 3
+                amino_acid_sequence = seq_record[start_idx:-cutoff_end].translate()
+                reading_frames.append(amino_acid_sequence)
             
-            # Translation
-            aminoacid_sequence = seq_record.translate()
+            # Translate in reverse direction
+            seq_reverse = seq_record[::-1]
+            for start_idx in range(3):
+                cutoff_end = (3 - start_idx) % 3
+                amino_acid_sequence = seq_reverse[start_idx:-cutoff_end].translate()
+                reading_frames.append(amino_acid_sequence)
             
-            # Set .fas file name
+            # Write to .fas file
             if (len(sys.argv) == 3):
-                output_file_path = sys.argv[2]
+                file_name = sys.argv[2]
             else:
-                output_file_path = seq_record.id + ".fas"
+                file_name = seq_record.id + ".fas"
 
-            # Save as .fasta
-            SeqIO.write(aminoacid_sequence, output_file_path, "fasta")
-            print(f"Fasta file saved as {output_file_path}")
-
+            SeqIO.write(reading_frames, file_name, "fasta")
+            print(f"Fasta file saved as '{file_name}'")
     except:
         print(f"Error: could not process file '{file_path}'.")
         exit()
