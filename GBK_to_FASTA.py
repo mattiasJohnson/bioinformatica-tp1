@@ -27,19 +27,30 @@ def main():
     try:
         for seq_record in SeqIO.parse(file_path, file_format):
 
+            n_nucleotides = len(seq_record)
             reading_frames = []
 
             # Translate in forward direction
             for start_idx in range(3):
-                cutoff_end = (3 - start_idx) % 3
-                amino_acid_sequence = seq_record[start_idx:-cutoff_end].translate()
+
+                # Ensure sequence multiple of 3
+                cutoff = (n_nucleotides - start_idx) % 3
+                end_idx = (n_nucleotides- start_idx) - cutoff + start_idx
+                
+                # Translate
+                amino_acid_sequence = seq_record[start_idx:end_idx].translate()
                 reading_frames.append(amino_acid_sequence)
             
             # Translate in reverse direction
             seq_reverse = seq_record[::-1]
             for start_idx in range(3):
-                cutoff_end = (3 - start_idx) % 3
-                amino_acid_sequence = seq_reverse[start_idx:-cutoff_end].translate()
+
+                # Ensure sequence multiple of 3
+                cutoff = (n_nucleotides - start_idx) % 3
+                end_idx = (n_nucleotides - start_idx) - cutoff + start_idx
+
+                # Translate
+                amino_acid_sequence = seq_reverse[start_idx:end_idx].translate()
                 reading_frames.append(amino_acid_sequence)
             
             # Write to .fas file

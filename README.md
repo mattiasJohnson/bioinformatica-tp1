@@ -1,10 +1,18 @@
 **How to use GBK_to_FASTA.py**
 ```bash
-python GBK_to_FASTA.py path_to_gbk_file
+python GBK_to_FASTA.py path_to_sequence_file
 
-# Optional second argument to name the putput .fas file
+# Optional second argument to name the output .fas file
 python GBK_to_FASTA.py files/CP011547.gbk output_file.fas
 ```
+
+**How to import amino acids from .fas**
+```python
+reading_frames = []
+for amino_acid in SeqIO.parse("works.fas", "fasta"):
+    reading_frames.append(amino_acid)
+```
+
 
 ---
 
