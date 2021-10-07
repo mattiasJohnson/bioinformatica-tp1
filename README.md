@@ -1,9 +1,9 @@
 **How to use GBK_to_FASTA.py**
 ```bash
-python GBK_to_FASTA.py path_to_sequence_file
+python nuceotides_to_amino_acids.py path_to_sequence_file
 
 # Optional second argument to name the output .fas file
-python GBK_to_FASTA.py files/CP011547.gbk output_file.fas
+python nuceotides_to_amino_acids.py files/CP011547.gbk output_file.fas
 ```
 
 **How to import amino acids from .fas**
