@@ -5,13 +5,27 @@ def main():
 
     # Quit if no path to .gbk file is provided
     if (len(sys.argv) < 2):
-        print("Error: path to .gbk file needed as command line argument.")
+        print("Error: path to sequence file needed as command line argument.")
         exit()
         
     file_path = sys.argv[1]
+    
+    # Check if supported file extension
+    file_extension = file_path.split(".")[-1]
+    file_formats = {
+        "gbk": "genbank",
+        "fas": "fasta",
+        "fasta": "fasta"
+    }
+    if file_extension not in file_formats:
+        print(f"Error: file extension .{file_extension} not supported.")
+        quit()
 
+    file_format = file_formats[file_extension]
+
+    # Translate and write to file
     try:
-        for seq_record in SeqIO.parse(file_path, "genbank"):
+        for seq_record in SeqIO.parse(file_path, file_format):
 
             reading_frames = []
 
