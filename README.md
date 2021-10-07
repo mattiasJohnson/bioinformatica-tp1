@@ -13,7 +13,6 @@ for amino_acid in SeqIO.parse("works.fas", "fasta"):
     reading_frames.append(amino_acid)
 ```
 
-
 ---
 
 # Links
