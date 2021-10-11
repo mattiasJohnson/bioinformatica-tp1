@@ -3,7 +3,7 @@
 python nucleotides_to_amino_acids.py path_to_sequence_file
 
 # Optional second argument to name the output .fas file
-python nucleotides_to_amino_acids.py files/CP011547.gbk output_file.fas
+python nucleotides_to_amino_acids.py files/sod1_mrna.gb output_file.fas
 ```
 
 **How to import amino acids from .fas**

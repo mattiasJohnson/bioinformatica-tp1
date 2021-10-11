@@ -1,0 +1,302 @@
+LOCUS       NM_000454                895 bp    mRNA    linear   PRI 12-SEP-2021
+DEFINITION  Homo sapiens superoxide dismutase 1 (SOD1), mRNA.
+ACCESSION   NM_000454
+VERSION     NM_000454.5
+KEYWORDS    RefSeq; MANE Select.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 895)
+  AUTHORS   Huma K, Mehboob K, Rashid A and Majeed A.
+  TITLE     A Comparative Analysis of Superoxide Dismutase 1 Level in Diabetics
+            with and without Neuropathy
+  JOURNAL   J Coll Physicians Surg Pak 30 (7), 765-769 (2021)
+   PUBMED   34271773
+  REMARK    GeneRIF: A Comparative Analysis of Superoxide Dismutase 1 Level in
+            Diabetics with and without Neuropathy.
+REFERENCE   2  (bases 1 to 895)
+  AUTHORS   Li X, Chen C, Zhan X, Li B, Zhang Z, Li S, Xie Y, Song X, Shen Y,
+            Liu J, Liu P, Liu GP and Yang X.
+  TITLE     R13 preserves motor performance in SOD1(G93A) mice by improving
+            mitochondrial function
+  JOURNAL   Theranostics 11 (15), 7294-7307 (2021)
+   PUBMED   34158851
+  REMARK    GeneRIF: R13 preserves motor performance in SOD1(G93A) mice by
+            improving mitochondrial function.
+            Publication Status: Online-Only
+REFERENCE   3  (bases 1 to 895)
+  AUTHORS   Wang X, Zhang H, Sapio R, Yang J, Wong J, Zhang X, Guo JY, Pine S,
+            Van Remmen H, Li H, White E, Liu C, Kiledjian M, Pestov DG and
+            Steven Zheng XF.
+  TITLE     SOD1 regulates ribosome biogenesis in KRAS mutant non-small cell
+            lung cancer
+  JOURNAL   Nat Commun 12 (1), 2259 (2021)
+   PUBMED   33859191
+  REMARK    GeneRIF: SOD1 regulates ribosome biogenesis in KRAS mutant
+            non-small cell lung cancer.
+            Publication Status: Online-Only
+REFERENCE   4  (bases 1 to 895)
+  AUTHORS   Yoon MJ, Choi B, Kim EJ, Ohk J, Yang C, Choi YG, Lee J, Kang C,
+            Song HK, Kim YK, Woo JS, Cho Y, Choi EJ, Jung H and Kim C.
+  TITLE     UXT chaperone prevents proteotoxicity by acting as an autophagy
+            adaptor for p62-dependent aggrephagy
+  JOURNAL   Nat Commun 12 (1), 1955 (2021)
+   PUBMED   33782410
+  REMARK    GeneRIF: UXT chaperone prevents proteotoxicity by acting as an
+            autophagy adaptor for p62-dependent aggrephagy.
+            Publication Status: Online-Only
+REFERENCE   5  (bases 1 to 895)
+  AUTHORS   Azkargorta M, Bregon-Villahoz M, Escobes I, Ibanez-Perez J, Iloro
+            I, Iglesias M, Diez-Zapirain M, Rabanal A, Prieto B, Moragues MD,
+            Matorras R and Elortza F.
+  TITLE     In-depth proteomics and natural peptidomics analyses reveal
+            antibacterial peptides in human endometrial fluid
+  JOURNAL   J Proteomics 216, 103652 (2020)
+   PUBMED   31958637
+  REMARK    GeneRIF: SOD1 displays antimicrobial activity against E. coli, E.
+            faecalis, S. aureus, S. aureus MRSA LPV+, S. agalactiae, and yeast
+            C. krusei.
+REFERENCE   6  (bases 1 to 895)
+  AUTHORS   Siddique,N. and Siddique,T.
+  TITLE     Amyotrophic Lateral Sclerosis Overview
+  JOURNAL   (in) Adam MP, Ardinger HH, Pagon RA, Wallace SE, Bean LJH, Mirzaa G
+            and Amemiya A (Eds.);
+            GENEREVIEWS((R));
+            (1993)
+   PUBMED   20301623
+REFERENCE   7  (bases 1 to 895)
+  AUTHORS   Crapo JD, Oury T, Rabouille C, Slot JW and Chang LY.
+  TITLE     Copper,zinc superoxide dismutase is primarily a cytosolic protein
+            in human cells
+  JOURNAL   Proc Natl Acad Sci U S A 89 (21), 10405-10409 (1992)
+   PUBMED   1332049
+REFERENCE   8  (bases 1 to 895)
+  AUTHORS   Parge HE, Hallewell RA and Tainer JA.
+  TITLE     Atomic structures of wild-type and thermostable mutant recombinant
+            human Cu,Zn superoxide dismutase
+  JOURNAL   Proc Natl Acad Sci U S A 89 (13), 6109-6113 (1992)
+   PUBMED   1463506
+  REMARK    Erratum:[Proc Natl Acad Sci U S A 1992 Nov 15;89(22):11106]
+REFERENCE   9  (bases 1 to 895)
+  AUTHORS   Kajihara J, Enomoto M, Nishijima K, Yabuuchi M and Katoh K.
+  TITLE     Comparison of properties between human recombinant and placental
+            copper-zinc SOD
+  JOURNAL   J Biochem 104 (5), 851-854 (1988)
+   PUBMED   2853161
+REFERENCE   10 (bases 14 to 573)
+  AUTHORS   Sherman,L., Dafni,N., Lieman-Hurwitz,J. and Groner,Y.
+  TITLE     Nucleotide sequence and expression of human chromosome 21-encoded
+            superoxide dismutase mRNA
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 80 (18), 5465-5469 (1983)
+   PUBMED   6577438
+REFERENCE   11 (bases 1 to 895)
+  AUTHORS   Philip,T., Fraisse,J., Sinet,P.M., Lauras,B., Robert,J.M. and
+            Freycon,F.
+  TITLE     Confirmation of the assignment of the human SODS gene to chromosome
+            21q22
+  JOURNAL   Cytogenet Cell Genet 22 (1-6), 521-523 (1978)
+   PUBMED   752535
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AV756797.1, BC001034.1,
+            X02317.1 and CA448539.1.
+            On Dec 4, 2019 this sequence version replaced NM_000454.4.
+            
+            Summary: The protein encoded by this gene binds copper and zinc
+            ions and is one of two isozymes responsible for destroying free
+            superoxide radicals in the body. The encoded isozyme is a soluble
+            cytoplasmic protein, acting as a homodimer to convert
+            naturally-occuring but harmful superoxide radicals to molecular
+            oxygen and hydrogen peroxide. The other isozyme is a mitochondrial
+            protein. In addition, this protein contains an antimicrobial
+            peptide that displays antibacterial, antifungal, and anti-MRSA
+            activity against E. coli, E. faecalis, S. aureus, S. aureus MRSA
+            LPV+, S. agalactiae, and yeast C. krusei. Mutations in this gene
+            have been implicated as causes of familial amyotrophic lateral
+            sclerosis. Rare transcript variants have been reported for this
+            gene. [provided by RefSeq, Jul 2020].
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: BI547103.1, BX359175.2 [ECO:0000332]
+            ##Evidence-Data-END##
+            
+            ##RefSeq-Attributes-START##
+            MANE Ensembl match                 :: ENST00000270142.11/
+                                                  ENSP00000270142.7
+            Protein has antimicrobial activity :: PMID: 31958637
+            RefSeq Select criteria             :: based on single
+                                                  protein-coding transcript
+            ##RefSeq-Attributes-END##
+            COMPLETENESS: full length.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-10                AV756797.1         96-105
+            11-13               BC001034.1         1-3
+            14-885              X02317.1           1-872
+            886-895             CA448539.1         16-25               c
+FEATURES             Location/Qualifiers
+     source          1..895
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="21"
+                     /map="21q22.11"
+     gene            1..895
+                     /gene="SOD1"
+                     /gene_synonym="ALS; ALS1; HEL-S-44; homodimer; hSod1;
+                     IPOA; SOD; STAHP"
+                     /note="superoxide dismutase 1"
+                     /db_xref="GeneID:6647"
+                     /db_xref="HGNC:HGNC:11179"
+                     /db_xref="MIM:147450"
+     exon            1..149
+                     /gene="SOD1"
+                     /gene_synonym="ALS; ALS1; HEL-S-44; homodimer; hSod1;
+                     IPOA; SOD; STAHP"
+                     /inference="alignment:Splign:2.1.0"
+     misc_feature    69..71
+                     /gene="SOD1"
+                     /gene_synonym="ALS; ALS1; HEL-S-44; homodimer; hSod1;
+                     IPOA; SOD; STAHP"
+                     /note="upstream in-frame stop codon"
+     CDS             78..542
+                     /gene="SOD1"
+                     /gene_synonym="ALS; ALS1; HEL-S-44; homodimer; hSod1;
+                     IPOA; SOD; STAHP"
+                     /EC_number="1.15.1.1"
+                     /note="indophenoloxidase A; SOD, soluble; superoxide
+                     dismutase, cystolic; Cu/Zn superoxide dismutase;
+                     epididymis secretory protein Li 44; superoxide dismutase
+                     1, soluble"
+                     /codon_start=1
+                     /product="superoxide dismutase [Cu-Zn]"
+                     /protein_id="NP_000445.1"
+                     /db_xref="CCDS:CCDS33536.1"
+                     /db_xref="GeneID:6647"
+                     /db_xref="HGNC:HGNC:11179"
+                     /db_xref="MIM:147450"
+                     /translation="MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLH
+                     GFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIED
+                     SVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ"
+     mat_peptide     81..140
+                     /gene="SOD1"
+                     /gene_synonym="ALS; ALS1; HEL-S-44; homodimer; hSod1;
+                     IPOA; SOD; STAHP"
+                     /product="superoxide dismutase [Cu-Zn]"
+                     /note="SOD1 antimicrobial peptide 5"
+     misc_feature    81..83
+                     /gene="SOD1"
+                     /gene_synonym="ALS; ALS1; HEL-S-44; homodimer; hSod1;
+                     IPOA; SOD; STAHP"
+                     /note="N-acetylalanine.
+                     /evidence=ECO:0000269|PubMed:1463506,
+                     ECO:0000269|PubMed:7002610, ECO:0007744|PubMed:25944712;
+                     propagated from UniProtKB/Swiss-Prot (P00441.2);
+                     acetylation site"
+     misc_feature    372..374
+                     /gene="SOD1"
+                     /gene_synonym="ALS; ALS1; HEL-S-44; homodimer; hSod1;
+                     IPOA; SOD; STAHP"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:18669648,
+                     ECO:0007744|PubMed:20068231, ECO:0007744|PubMed:24275569;
+                     propagated from UniProtKB/Swiss-Prot (P00441.2);
+                     phosphorylation site"
+     misc_feature    384..386
+                     /gene="SOD1"
+                     /gene_synonym="ALS; ALS1; HEL-S-44; homodimer; hSod1;
+                     IPOA; SOD; STAHP"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:24275569; propagated from
+                     UniProtKB/Swiss-Prot (P00441.2); phosphorylation site"
+     misc_feature    393..395
+                     /gene="SOD1"
+                     /gene_synonym="ALS; ALS1; HEL-S-44; homodimer; hSod1;
+                     IPOA; SOD; STAHP"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:P07632; propagated from
+                     UniProtKB/Swiss-Prot (P00441.2); phosphorylation site"
+     misc_feature    399..401
+                     /gene="SOD1"
+                     /gene_synonym="ALS; ALS1; HEL-S-44; homodimer; hSod1;
+                     IPOA; SOD; STAHP"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:P08228; propagated from
+                     UniProtKB/Swiss-Prot (P00441.2); phosphorylation site"
+     misc_feature    444..446
+                     /gene="SOD1"
+                     /gene_synonym="ALS; ALS1; HEL-S-44; homodimer; hSod1;
+                     IPOA; SOD; STAHP"
+                     /note="N6-acetyllysine, alternate.
+                     /evidence=ECO:0007744|PubMed:19608861; propagated from
+                     UniProtKB/Swiss-Prot (P00441.2); acetylation site"
+     misc_feature    486..488
+                     /gene="SOD1"
+                     /gene_synonym="ALS; ALS1; HEL-S-44; homodimer; hSod1;
+                     IPOA; SOD; STAHP"
+                     /note="N6-acetyllysine, alternate.
+                     /evidence=ECO:0000250|UniProtKB:P08228; propagated from
+                     UniProtKB/Swiss-Prot (P00441.2); acetylation site"
+     exon            150..246
+                     /gene="SOD1"
+                     /gene_synonym="ALS; ALS1; HEL-S-44; homodimer; hSod1;
+                     IPOA; SOD; STAHP"
+                     /inference="alignment:Splign:2.1.0"
+     exon            247..316
+                     /gene="SOD1"
+                     /gene_synonym="ALS; ALS1; HEL-S-44; homodimer; hSod1;
+                     IPOA; SOD; STAHP"
+                     /inference="alignment:Splign:2.1.0"
+     exon            317..434
+                     /gene="SOD1"
+                     /gene_synonym="ALS; ALS1; HEL-S-44; homodimer; hSod1;
+                     IPOA; SOD; STAHP"
+                     /inference="alignment:Splign:2.1.0"
+     exon            435..895
+                     /gene="SOD1"
+                     /gene_synonym="ALS; ALS1; HEL-S-44; homodimer; hSod1;
+                     IPOA; SOD; STAHP"
+                     /inference="alignment:Splign:2.1.0"
+     regulatory      620..625
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="SOD1"
+                     /gene_synonym="ALS; ALS1; HEL-S-44; homodimer; hSod1;
+                     IPOA; SOD; STAHP"
+                     /note="hexamer: ATTAAA"
+     polyA_site      641
+                     /gene="SOD1"
+                     /gene_synonym="ALS; ALS1; HEL-S-44; homodimer; hSod1;
+                     IPOA; SOD; STAHP"
+                     /note="major polyA site"
+     regulatory      869..874
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="SOD1"
+                     /gene_synonym="ALS; ALS1; HEL-S-44; homodimer; hSod1;
+                     IPOA; SOD; STAHP"
+                     /note="hexamer: ATTAAA"
+     polyA_site      895
+                     /gene="SOD1"
+                     /gene_synonym="ALS; ALS1; HEL-S-44; homodimer; hSod1;
+                     IPOA; SOD; STAHP"
+ORIGIN      
+        1 gcgtcgtagt ctcctgcagc gtctggggtt tccgttgcag tcctcggaac caggacctcg
+       61 gcgtggccta gcgagttatg gcgacgaagg ccgtgtgcgt gctgaagggc gacggcccag
+      121 tgcagggcat catcaatttc gagcagaagg aaagtaatgg accagtgaag gtgtggggaa
+      181 gcattaaagg actgactgaa ggcctgcatg gattccatgt tcatgagttt ggagataata
+      241 cagcaggctg taccagtgca ggtcctcact ttaatcctct atccagaaaa cacggtgggc
+      301 caaaggatga agagaggcat gttggagact tgggcaatgt gactgctgac aaagatggtg
+      361 tggccgatgt gtctattgaa gattctgtga tctcactctc aggagaccat tgcatcattg
+      421 gccgcacact ggtggtccat gaaaaagcag atgacttggg caaaggtgga aatgaagaaa
+      481 gtacaaagac aggaaacgct ggaagtcgtt tggcttgtgg tgtaattggg atcgcccaat
+      541 aaacattccc ttggatgtag tctgaggccc cttaactcat ctgttatcct gctagctgta
+      601 gaaatgtatc ctgataaaca ttaaacactg taatcttaaa agtgtaattg tgtgactttt
+      661 tcagagttgc tttaaagtac ctgtagtgag aaactgattt atgatcactt ggaagatttg
+      721 tatagtttta taaaactcag ttaaaatgtc tgtttcaatg acctgtattt tgccagactt
+      781 aaatcacaga tgggtattaa acttgtcaga atttctttgt cattcaagcc tgtgaataaa
+      841 aaccctgtat ggcacttatt atgaggctat taaaagaatc caaattcaaa ctaaa
+//
+

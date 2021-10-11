@@ -14,6 +14,7 @@ def main():
     file_extension = file_path.split(".")[-1]
     file_formats = {
         "gbk": "genbank",
+        "gb": "genbank",
         "fas": "fasta",
         "fasta": "fasta"
     }
