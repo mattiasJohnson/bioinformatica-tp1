@@ -1,0 +1,141 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Sun  7 Nov 2021 20:15:54
+# Commandline: patmatmotifs
+#    -full
+#    -sequence sod1_mrna.orf
+#    -outfile sod1_mrna.patmatmotifs
+# Report_format: dbmotif
+# Report_file: sod1_mrna.patmatmotifs
+########################################
+
+#=======================================
+#
+# Sequence: NM_000454_1     from: 1   to: 156
+# HitCount: 2
+#
+# Full: Yes
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 11
+Start = position 47 of sequence
+End = position 57 of sequence
+
+Motif = SOD_CU_ZN_1
+
+TEGLHGFHVHEFGDNTAGCTS
+     |         |
+    47         57
+
+Length = 12
+Start = position 141 of sequence
+End = position 152 of sequence
+
+Motif = SOD_CU_ZN_2
+
+ESTKTGNAGSRLACGVIGIAQ
+     |          |
+   141          152
+
+
+#---------------------------------------
+#
+# Motif: SOD_CU_ZN_1
+# Count: 1
+# 
+# ***********************************************
+# * Copper/Zinc superoxide dismutase signatures *
+# ***********************************************
+# 
+# Copper/Zinc superoxide dismutase (EC 1.15.1.1) (SODC) [1] is  one of the three
+# forms of an enzyme that catalyzes the dismutation of superoxide radicals. SODC
+# binds one atom each  of zinc and copper.  Various forms  of  SODC are known: a
+# cytoplasmic  form in  eukaryotes, an additional chloroplast form in plants, an
+# extracellular form in some  eukaryotes, and a periplasmic form in prokaryotes.
+# The metal binding sites are conserved in all the known SODC sequences [2].
+# 
+# We derived two signature  patterns for this family of enzymes:  the  first one
+# contains two  histidine residues that  bind the copper atom; the second one is
+# located in the C-terminal section of  SODC  and  contains a  cysteine which is
+# involved in a disulfide bond.
+# 
+# -Consensus pattern: [GA]-[IMFAT]-H-[LIVF]-H-{S}-x-[GP]-[SDG]-x-[STAGDE]
+#                     [The 2 H's are copper ligands]
+# -Sequences known to belong to this class detected by the pattern: ALL.
+# -Other sequence(s) detected in Swiss-Prot: 5.
+# 
+# -Consensus pattern: G-[GNHD]-[SGA]-[GR]-x-R-x-[SGAWRV]-C-x(2)-[IV]
+#                     [C is involved in a disulfide bond]
+# -Sequences known to belong to this class detected by the pattern: ALL.
+# -Other sequence(s) detected in Swiss-Prot: NONE.
+# 
+# -Note: These patterns will not detect proteins related to SODC, but which have
+#  lost their catalytic activity, such as Vaccinia virus protein A45.
+# 
+# -Last update: April 2006 / Patterns revised.
+# 
+# [ 1] Bannister J.V., Bannister W.H., Rotilio G.
+#      "Aspects of the structure, function, and applications of superoxide
+#      dismutase."
+#      CRC Crit. Rev. Biochem. 22:111-180(1987).
+#      PubMed=3315461
+# [ 2] Smith M.W., Doolittle R.F.
+#      "A comparison of evolutionary rates of the two major kinds of
+#      superoxide dismutase."
+#      J. Mol. Evol. 34:175-184(1992).
+#      PubMed=1556751
+# 
+# ***************
+# 
+# Motif: SOD_CU_ZN_2
+# Count: 1
+# 
+# ***********************************************
+# * Copper/Zinc superoxide dismutase signatures *
+# ***********************************************
+# 
+# Copper/Zinc superoxide dismutase (EC 1.15.1.1) (SODC) [1] is  one of the three
+# forms of an enzyme that catalyzes the dismutation of superoxide radicals. SODC
+# binds one atom each  of zinc and copper.  Various forms  of  SODC are known: a
+# cytoplasmic  form in  eukaryotes, an additional chloroplast form in plants, an
+# extracellular form in some  eukaryotes, and a periplasmic form in prokaryotes.
+# The metal binding sites are conserved in all the known SODC sequences [2].
+# 
+# We derived two signature  patterns for this family of enzymes:  the  first one
+# contains two  histidine residues that  bind the copper atom; the second one is
+# located in the C-terminal section of  SODC  and  contains a  cysteine which is
+# involved in a disulfide bond.
+# 
+# -Consensus pattern: [GA]-[IMFAT]-H-[LIVF]-H-{S}-x-[GP]-[SDG]-x-[STAGDE]
+#                     [The 2 H's are copper ligands]
+# -Sequences known to belong to this class detected by the pattern: ALL.
+# -Other sequence(s) detected in Swiss-Prot: 5.
+# 
+# -Consensus pattern: G-[GNHD]-[SGA]-[GR]-x-R-x-[SGAWRV]-C-x(2)-[IV]
+#                     [C is involved in a disulfide bond]
+# -Sequences known to belong to this class detected by the pattern: ALL.
+# -Other sequence(s) detected in Swiss-Prot: NONE.
+# 
+# -Note: These patterns will not detect proteins related to SODC, but which have
+#  lost their catalytic activity, such as Vaccinia virus protein A45.
+# 
+# -Last update: April 2006 / Patterns revised.
+# 
+# [ 1] Bannister J.V., Bannister W.H., Rotilio G.
+#      "Aspects of the structure, function, and applications of superoxide
+#      dismutase."
+#      CRC Crit. Rev. Biochem. 22:111-180(1987).
+#      PubMed=3315461
+# [ 2] Smith M.W., Doolittle R.F.
+#      "A comparison of evolutionary rates of the two major kinds of
+#      superoxide dismutase."
+#      J. Mol. Evol. 34:175-184(1992).
+#      PubMed=1556751
+# 
+# ***************
+# 
+#
+#---------------------------------------
