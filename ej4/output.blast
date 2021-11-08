@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.12.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_42779</BlastOutput_query-ID>
+  <BlastOutput_query-def>lcl ORF1</BlastOutput_query-def>
+  <BlastOutput_query-len>156</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_42779</Iteration_query-ID>
+  <Iteration_query-def>lcl ORF1</Iteration_query-def>
+  <Iteration_query-len>156</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|NP_000445.1|</Hit_id>
+  <Hit_def>superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;ref|NP_001009025.1| superoxide dismutase [Cu-Zn] [Pan troglodytes] &gt;ref|XP_003813274.1| superoxide dismutase [Cu-Zn] [Pan paniscus] &gt;ref|XP_008976454.1| superoxide dismutase [Cu-Zn] [Pan paniscus] &gt;sp|P00441.2| RecName: Full=Superoxide dismutase [Cu-Zn]; AltName: Full=Superoxide dismutase 1; Short=hSod1 [Homo sapiens] &gt;sp|P60052.2| RecName: Full=Superoxide dismutase [Cu-Zn] [Pan troglodytes] &gt;pdb|4B3E|A Structure of copper-zinc superoxide dismutase complexed with bicarbonate. [Homo sapiens] &gt;pdb|4B3E|B Structure of copper-zinc superoxide dismutase complexed with bicarbonate. [Homo sapiens] &gt;pdb|4B3E|C Structure of copper-zinc superoxide dismutase complexed with bicarbonate. [Homo sapiens] &gt;pdb|4B3E|D Structure of copper-zinc superoxide dismutase complexed with bicarbonate. [Homo sapiens] &gt;pdb|4B3E|E Structure of copper-zinc superoxide dismutase complexed with bicarbonate. [Homo sapiens] &gt;pdb|4B3E|F Structure of copper-zinc superoxide dismutase complexed with bicarbonate. [Homo sapiens] &gt;pdb|4B3E|G Structure of copper-zinc superoxide dismutase complexed with bicarbonate. [Homo sapiens] &gt;pdb|4B3E|H Structure of copper-zinc superoxide dismutase complexed with bicarbonate. [Homo sapiens] &gt;pdb|4B3E|I Structure of copper-zinc superoxide dismutase complexed with bicarbonate. [Homo sapiens] &gt;pdb|4B3E|J Structure of copper-zinc superoxide dismutase complexed with bicarbonate. [Homo sapiens] &gt;pdb|5YUL|A Native Structure of hSOD1 in P6322 space group [Homo sapiens] &gt;pdb|5YUL|B Native Structure of hSOD1 in P6322 space group [Homo sapiens] &gt;pdb|5YUL|C Native Structure of hSOD1 in P6322 space group [Homo sapiens] &gt;pdb|5YUL|D Native Structure of hSOD1 in P6322 space group [Homo sapiens] &gt;pdb|5YUL|E Native Structure of hSOD1 in P6322 space group [Homo sapiens] &gt;pdb|5YUL|F Native Structure of hSOD1 in P6322 space group [Homo sapiens] &gt;pdb|5YUL|G Native Structure of hSOD1 in P6322 space group [Homo sapiens] &gt;pdb|5YUL|H Native Structure of hSOD1 in P6322 space group [Homo sapiens] &gt;pdb|5YUL|I Native Structure of hSOD1 in P6322 space group [Homo sapiens] &gt;pdb|5YUL|J Native Structure of hSOD1 in P6322 space group [Homo sapiens] &gt;pdb|6A9O|A Rational discovery of a SOD1 tryptophan oxidation inhibitor with therapeutic potential for amyotrophic lateral sclerosis [Homo sapiens] &gt;pdb|6A9O|B Rational discovery of a SOD1 tryptophan oxidation inhibitor with therapeutic potential for amyotrophic lateral sclerosis [Homo sapiens] &gt;pdb|6A9O|C Rational discovery of a SOD1 tryptophan oxidation inhibitor with therapeutic potential for amyotrophic lateral sclerosis [Homo sapiens] &gt;pdb|6A9O|D Rational discovery of a SOD1 tryptophan oxidation inhibitor with therapeutic potential for amyotrophic lateral sclerosis [Homo sapiens] &gt;pdb|6A9O|E Rational discovery of a SOD1 tryptophan oxidation inhibitor with therapeutic potential for amyotrophic lateral sclerosis [Homo sapiens] &gt;pdb|6A9O|F Rational discovery of a SOD1 tryptophan oxidation inhibitor with therapeutic potential for amyotrophic lateral sclerosis [Homo sapiens] &gt;pdb|6A9O|G Rational discovery of a SOD1 tryptophan oxidation inhibitor with therapeutic potential for amyotrophic lateral sclerosis [Homo sapiens] &gt;pdb|6A9O|H Rational discovery of a SOD1 tryptophan oxidation inhibitor with therapeutic potential for amyotrophic lateral sclerosis [Homo sapiens] &gt;pdb|6A9O|I Rational discovery of a SOD1 tryptophan oxidation inhibitor with therapeutic potential for amyotrophic lateral sclerosis [Homo sapiens] &gt;pdb|6A9O|J Rational discovery of a SOD1 tryptophan oxidation inhibitor with therapeutic potential for amyotrophic lateral sclerosis [Homo sapiens] &gt;gb|AAX32123.1| superoxide dismutase 1 [synthetic construct] &gt;emb|SJX27096.1| unnamed protein product, partial [Human ORFeome Gateway entry vector] &gt;gb|AAB05661.1| Cu/Zn-superoxide dismutase [Homo sapiens] &gt;gb|AAH01034.1| Superoxide dismutase 1, soluble [Homo sapiens] &gt;gb|AAL15444.1| soluble superoxide dismutase 1 [Homo sapiens]</Hit_def>
+  <Hit_accession>NP_000445</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>310.071</Hsp_bit-score>
+      <Hsp_score>793</Hsp_score>
+      <Hsp_evalue>2.65325e-106</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|AAP36703.1|</Hit_id>
+  <Hit_def>Homo sapiens superoxide dismutase 1, soluble (amyotrophic lateral sclerosis 1 (adult)), partial [synthetic construct] &gt;gb|AAX43749.1| superoxide dismutase 1 soluble, partial [synthetic construct] &gt;gb|AAX43750.1| superoxide dismutase 1 soluble, partial [synthetic construct]</Hit_def>
+  <Hit_accession>AAP36703</Hit_accession>
+  <Hit_len>155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>310.071</Hsp_bit-score>
+      <Hsp_score>793</Hsp_score>
+      <Hsp_evalue>2.86987e-106</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>pdb|5YTO|A</Hit_id>
+  <Hit_def>Crystal Structure of human Superoxide Dismutase I (hSOD1) in complex with a napthalene-catechol linked compound. [Homo sapiens] &gt;pdb|5YTO|B Crystal Structure of human Superoxide Dismutase I (hSOD1) in complex with a napthalene-catechol linked compound. [Homo sapiens] &gt;pdb|5YTO|C Crystal Structure of human Superoxide Dismutase I (hSOD1) in complex with a napthalene-catechol linked compound. [Homo sapiens] &gt;pdb|5YTO|D Crystal Structure of human Superoxide Dismutase I (hSOD1) in complex with a napthalene-catechol linked compound. [Homo sapiens] &gt;pdb|5YTO|E Crystal Structure of human Superoxide Dismutase I (hSOD1) in complex with a napthalene-catechol linked compound. [Homo sapiens] &gt;pdb|5YTO|F Crystal Structure of human Superoxide Dismutase I (hSOD1) in complex with a napthalene-catechol linked compound. [Homo sapiens] &gt;pdb|5YTO|G Crystal Structure of human Superoxide Dismutase I (hSOD1) in complex with a napthalene-catechol linked compound. [Homo sapiens] &gt;pdb|5YTO|H Crystal Structure of human Superoxide Dismutase I (hSOD1) in complex with a napthalene-catechol linked compound. [Homo sapiens] &gt;pdb|5YTO|I Crystal Structure of human Superoxide Dismutase I (hSOD1) in complex with a napthalene-catechol linked compound. [Homo sapiens] &gt;pdb|5YTO|J Crystal Structure of human Superoxide Dismutase I (hSOD1) in complex with a napthalene-catechol linked compound. [Homo sapiens] &gt;pdb|5YTU|A Structure of human SOD1 complexed with isoproteranol in C2221 space group [Homo sapiens] &gt;pdb|5YTU|B Structure of human SOD1 complexed with isoproteranol in C2221 space group [Homo sapiens] &gt;pdb|5YTU|C Structure of human SOD1 complexed with isoproteranol in C2221 space group [Homo sapiens] &gt;pdb|5YTU|D Structure of human SOD1 complexed with isoproteranol in C2221 space group [Homo sapiens] &gt;pdb|5YTU|E Structure of human SOD1 complexed with isoproteranol in C2221 space group [Homo sapiens] &gt;pdb|5YTU|F Structure of human SOD1 complexed with isoproteranol in C2221 space group [Homo sapiens] &gt;pdb|5YTU|G Structure of human SOD1 complexed with isoproteranol in C2221 space group [Homo sapiens] &gt;pdb|5YTU|H Structure of human SOD1 complexed with isoproteranol in C2221 space group [Homo sapiens] &gt;pdb|5YTU|I Structure of human SOD1 complexed with isoproteranol in C2221 space group [Homo sapiens] &gt;pdb|5YTU|J Structure of human SOD1 complexed with isoproteranol in C2221 space group [Homo sapiens]</Hit_def>
+  <Hit_accession>5YTO_A</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>310.457</Hsp_bit-score>
+      <Hsp_score>794</Hsp_score>
+      <Hsp_evalue>5.19233e-106</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|ABR10845.1|</Hit_id>
+  <Hit_def>hSOD-His6 [synthetic construct]</Hit_def>
+  <Hit_accession>ABR10845</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>309.301</Hsp_bit-score>
+      <Hsp_score>791</Hsp_score>
+      <Hsp_evalue>6.59159e-106</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>pdb|6SPI|A</Hit_id>
+  <Hit_def>A4V MUTANT OF HUMAN SOD1 WITH EBSELEN DERIVATIVE 4 [Homo sapiens] &gt;pdb|6SPI|B A4V MUTANT OF HUMAN SOD1 WITH EBSELEN DERIVATIVE 4 [Homo sapiens] &gt;pdb|6SPI|C A4V MUTANT OF HUMAN SOD1 WITH EBSELEN DERIVATIVE 4 [Homo sapiens] &gt;pdb|6SPI|D A4V MUTANT OF HUMAN SOD1 WITH EBSELEN DERIVATIVE 4 [Homo sapiens] &gt;pdb|6SPI|E A4V MUTANT OF HUMAN SOD1 WITH EBSELEN DERIVATIVE 4 [Homo sapiens] &gt;pdb|6SPI|F A4V MUTANT OF HUMAN SOD1 WITH EBSELEN DERIVATIVE 4 [Homo sapiens] &gt;pdb|6SPI|G A4V MUTANT OF HUMAN SOD1 WITH EBSELEN DERIVATIVE 4 [Homo sapiens] &gt;pdb|6SPI|H A4V MUTANT OF HUMAN SOD1 WITH EBSELEN DERIVATIVE 4 [Homo sapiens] &gt;pdb|6SPI|I A4V MUTANT OF HUMAN SOD1 WITH EBSELEN DERIVATIVE 4 [Homo sapiens] &gt;pdb|6SPI|J A4V MUTANT OF HUMAN SOD1 WITH EBSELEN DERIVATIVE 4 [Homo sapiens] &gt;pdb|6SPI|K A4V MUTANT OF HUMAN SOD1 WITH EBSELEN DERIVATIVE 4 [Homo sapiens] &gt;pdb|6SPI|L A4V MUTANT OF HUMAN SOD1 WITH EBSELEN DERIVATIVE 4 [Homo sapiens]</Hit_def>
+  <Hit_accession>6SPI_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>308.531</Hsp_bit-score>
+      <Hsp_score>789</Hsp_score>
+      <Hsp_evalue>1.21981e-105</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>MATKVVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>MATK VCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|AKI70982.1|</Hit_id>
+  <Hit_def>SOD1, partial [synthetic construct]</Hit_def>
+  <Hit_accession>AKI70982</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>308.531</Hsp_bit-score>
+      <Hsp_score>789</Hsp_score>
+      <Hsp_evalue>1.34645e-105</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTESLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTE LHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>pdb|2ZKY|A</Hit_id>
+  <Hit_def>Crystal structure of human Cu-Zn superoxide dismutase mutant G93A [Homo sapiens] &gt;pdb|2ZKY|B Crystal structure of human Cu-Zn superoxide dismutase mutant G93A [Homo sapiens] &gt;pdb|2ZKY|C Crystal structure of human Cu-Zn superoxide dismutase mutant G93A [Homo sapiens] &gt;pdb|2ZKY|D Crystal structure of human Cu-Zn superoxide dismutase mutant G93A [Homo sapiens] &gt;pdb|2ZKY|E Crystal structure of human Cu-Zn superoxide dismutase mutant G93A [Homo sapiens] &gt;pdb|2ZKY|F Crystal structure of human Cu-Zn superoxide dismutase mutant G93A [Homo sapiens] &gt;pdb|2ZKY|G Crystal structure of human Cu-Zn superoxide dismutase mutant G93A [Homo sapiens] &gt;pdb|2ZKY|H Crystal structure of human Cu-Zn superoxide dismutase mutant G93A [Homo sapiens] &gt;pdb|2ZKY|I Crystal structure of human Cu-Zn superoxide dismutase mutant G93A [Homo sapiens] &gt;pdb|2ZKY|J Crystal structure of human Cu-Zn superoxide dismutase mutant G93A [Homo sapiens]</Hit_def>
+  <Hit_accession>2ZKY_A</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>308.531</Hsp_bit-score>
+      <Hsp_score>789</Hsp_score>
+      <Hsp_evalue>1.76679e-105</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDAVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKD VADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|AKI70983.1|</Hit_id>
+  <Hit_def>SOD1, partial [synthetic construct]</Hit_def>
+  <Hit_accession>AKI70983</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>308.145</Hsp_bit-score>
+      <Hsp_score>788</Hsp_score>
+      <Hsp_evalue>1.99882e-105</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRRLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGR LVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|XP_004062735.1|</Hit_id>
+  <Hit_def>superoxide dismutase [Cu-Zn] [Gorilla gorilla gorilla]</Hit_def>
+  <Hit_accession>XP_004062735</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.76</Hsp_bit-score>
+      <Hsp_score>787</Hsp_score>
+      <Hsp_evalue>2.48942e-105</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVFIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADV IEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|AKI70981.1|</Hit_id>
+  <Hit_def>SOD1, partial [synthetic construct]</Hit_def>
+  <Hit_accession>AKI70981</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.76</Hsp_bit-score>
+      <Hsp_score>787</Hsp_score>
+      <Hsp_evalue>2.54466e-105</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKRLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIK LTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|AKI70984.1|</Hit_id>
+  <Hit_def>SOD1, partial [synthetic construct]</Hit_def>
+  <Hit_accession>AKI70984</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.76</Hsp_bit-score>
+      <Hsp_score>787</Hsp_score>
+      <Hsp_evalue>2.93489e-105</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDSGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADD GKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|AHW46360.1|</Hit_id>
+  <Hit_def>superoxide dismutase 1 [Cu-Zn] W32-F mutant [synthetic construct]</Hit_def>
+  <Hit_accession>AHW46360</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.375</Hsp_bit-score>
+      <Hsp_score>786</Hsp_score>
+      <Hsp_evalue>3.53685e-105</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>MATKAVCVLKGDGPVQGIINFEQKESNGPVKVFGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>MATKAVCVLKGDGPVQGIINFEQKESNGPVKV+GSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>pdb|1HL5|A</Hit_id>
+  <Hit_def>The Structure of Holo Type Human Cu, Zn Superoxide Dismutase [Homo sapiens] &gt;pdb|1HL5|B The Structure of Holo Type Human Cu, Zn Superoxide Dismutase [Homo sapiens] &gt;pdb|1HL5|C The Structure of Holo Type Human Cu, Zn Superoxide Dismutase [Homo sapiens] &gt;pdb|1HL5|D The Structure of Holo Type Human Cu, Zn Superoxide Dismutase [Homo sapiens] &gt;pdb|1HL5|E The Structure of Holo Type Human Cu, Zn Superoxide Dismutase [Homo sapiens] &gt;pdb|1HL5|F The Structure of Holo Type Human Cu, Zn Superoxide Dismutase [Homo sapiens] &gt;pdb|1HL5|G The Structure of Holo Type Human Cu, Zn Superoxide Dismutase [Homo sapiens] &gt;pdb|1HL5|H The Structure of Holo Type Human Cu, Zn Superoxide Dismutase [Homo sapiens] &gt;pdb|1HL5|I The Structure of Holo Type Human Cu, Zn Superoxide Dismutase [Homo sapiens] &gt;pdb|1HL5|J The Structure of Holo Type Human Cu, Zn Superoxide Dismutase [Homo sapiens] &gt;pdb|1HL5|K The Structure of Holo Type Human Cu, Zn Superoxide Dismutase [Homo sapiens] &gt;pdb|1HL5|L The Structure of Holo Type Human Cu, Zn Superoxide Dismutase [Homo sapiens] &gt;pdb|1HL5|M The Structure of Holo Type Human Cu, Zn Superoxide Dismutase [Homo sapiens] &gt;pdb|1HL5|N The Structure of Holo Type Human Cu, Zn Superoxide Dismutase [Homo sapiens] &gt;pdb|1HL5|O The Structure of Holo Type Human Cu, Zn Superoxide Dismutase [Homo sapiens] &gt;pdb|1HL5|P The Structure of Holo Type Human Cu, Zn Superoxide Dismutase [Homo sapiens] &gt;pdb|1HL5|Q The Structure of Holo Type Human Cu, Zn Superoxide Dismutase [Homo sapiens] &gt;pdb|1HL5|S The Structure of Holo Type Human Cu, Zn Superoxide Dismutase [Homo sapiens] &gt;pdb|1PU0|A Structure of Human Cu,Zn Superoxide Dismutase [Homo sapiens] &gt;pdb|1PU0|B Structure of Human Cu,Zn Superoxide Dismutase [Homo sapiens] &gt;pdb|1PU0|C Structure of Human Cu,Zn Superoxide Dismutase [Homo sapiens] &gt;pdb|1PU0|D Structure of Human Cu,Zn Superoxide Dismutase [Homo sapiens] &gt;pdb|1PU0|E Structure of Human Cu,Zn Superoxide Dismutase [Homo sapiens] &gt;pdb|1PU0|F Structure of Human Cu,Zn Superoxide Dismutase [Homo sapiens] &gt;pdb|1PU0|G Structure of Human Cu,Zn Superoxide Dismutase [Homo sapiens] &gt;pdb|1PU0|H Structure of Human Cu,Zn Superoxide Dismutase [Homo sapiens] &gt;pdb|1PU0|I Structure of Human Cu,Zn Superoxide Dismutase [Homo sapiens] &gt;pdb|1PU0|J Structure of Human Cu,Zn Superoxide Dismutase [Homo sapiens] &gt;pdb|2C9U|A 1.24 Angstroms resolution structure of as-isolated Cu-Zn Human Superoxide dismutase [Homo sapiens] &gt;pdb|2C9U|F 1.24 Angstroms resolution structure of as-isolated Cu-Zn Human Superoxide dismutase [Homo sapiens] &gt;pdb|2C9V|A Atomic resolution structure of Cu-Zn Human Superoxide dismutase [Homo sapiens] &gt;pdb|2C9V|F Atomic resolution structure of Cu-Zn Human Superoxide dismutase [Homo sapiens] &gt;pdb|2V0A|A Atomic resolution crystal structure of Human Superoxide Dismutase [Homo sapiens] &gt;pdb|2V0A|F Atomic resolution crystal structure of Human Superoxide Dismutase [Homo sapiens] &gt;pdb|3ECU|A Crystal structure of human apo Cu,Zn Superoxide Dismutase (SOD1) [Homo sapiens] &gt;pdb|3ECU|B Crystal structure of human apo Cu,Zn Superoxide Dismutase (SOD1) [Homo sapiens] &gt;pdb|3ECU|C Crystal structure of human apo Cu,Zn Superoxide Dismutase (SOD1) [Homo sapiens] &gt;pdb|3ECU|D Crystal structure of human apo Cu,Zn Superoxide Dismutase (SOD1) [Homo sapiens] &gt;pdb|3KH3|A Crystal structure of human Cu/Zn superoxide dismutase recombinantly produced in Leishmania tarantolae; P212121 crystal form containing 12 chains in the asymmetric unit [Homo sapiens] &gt;pdb|3KH3|B Crystal structure of human Cu/Zn superoxide dismutase recombinantly produced in Leishmania tarantolae; P212121 crystal form containing 12 chains in the asymmetric unit [Homo sapiens] &gt;pdb|3KH3|C Crystal structure of human Cu/Zn superoxide dismutase recombinantly produced in Leishmania tarantolae; P212121 crystal form containing 12 chains in the asymmetric unit [Homo sapiens] &gt;pdb|3KH3|D Crystal structure of human Cu/Zn superoxide dismutase recombinantly produced in Leishmania tarantolae; P212121 crystal form containing 12 chains in the asymmetric unit [Homo sapiens] &gt;pdb|3KH3|E Crystal structure of human Cu/Zn superoxide dismutase recombinantly produced in Leishmania tarantolae; P212121 crystal form containing 12 chains in the asymmetric unit [Homo sapiens] &gt;pdb|3KH3|F Crystal structure of human Cu/Zn superoxide dismutase recombinantly produced in Leishmania tarantolae; P212121 crystal form containing 12 chains in the asymmetric unit [Homo sapiens] &gt;pdb|3KH3|G Crystal structure of human Cu/Zn superoxide dismutase recombinantly produced in Leishmania tarantolae; P212121 crystal form containing 12 chains in the asymmetric unit [Homo sapiens] &gt;pdb|3KH3|H Crystal structure of human Cu/Zn superoxide dismutase recombinantly produced in Leishmania tarantolae; P212121 crystal form containing 12 chains in the asymmetric unit [Homo sapiens] &gt;pdb|3KH3|I Crystal structure of human Cu/Zn superoxide dismutase recombinantly produced in Leishmania tarantolae; P212121 crystal form containing 12 chains in the asymmetric unit [Homo sapiens] &gt;pdb|3KH3|J Crystal structure of human Cu/Zn superoxide dismutase recombinantly produced in Leishmania tarantolae; P212121 crystal form containing 12 chains in the asymmetric unit [Homo sapiens] &gt;pdb|3KH3|K Crystal structure of human Cu/Zn superoxide dismutase recombinantly produced in Leishmania tarantolae; P212121 crystal form containing 12 chains in the asymmetric unit [Homo sapiens] &gt;pdb|3KH3|L Crystal structure of human Cu/Zn superoxide dismutase recombinantly produced in Leishmania tarantolae; P212121 crystal form containing 12 chains in the asymmetric unit [Homo sapiens] &gt;pdb|3KH4|A Crystal structure of human Cu/Zn superoxide dismutase recombinantly produced in Leishmania tarantolae; P6522 crystal form containing 6 chains in the asymmetric unit [Homo sapiens] &gt;pdb|3KH4|B Crystal structure of human Cu/Zn superoxide dismutase recombinantly produced in Leishmania tarantolae; P6522 crystal form containing 6 chains in the asymmetric unit [Homo sapiens] &gt;pdb|3KH4|C Crystal structure of human Cu/Zn superoxide dismutase recombinantly produced in Leishmania tarantolae; P6522 crystal form containing 6 chains in the asymmetric unit [Homo sapiens] &gt;pdb|3KH4|D Crystal structure of human Cu/Zn superoxide dismutase recombinantly produced in Leishmania tarantolae; P6522 crystal form containing 6 chains in the asymmetric unit [Homo sapiens] &gt;pdb|3KH4|E Crystal structure of human Cu/Zn superoxide dismutase recombinantly produced in Leishmania tarantolae; P6522 crystal form containing 6 chains in the asymmetric unit [Homo sapiens] &gt;pdb|3KH4|F Crystal structure of human Cu/Zn superoxide dismutase recombinantly produced in Leishmania tarantolae; P6522 crystal form containing 6 chains in the asymmetric unit [Homo sapiens] &gt;pdb|3RE0|A Crystal structure of human apo Cu,Zn superoxide dismutase (SOD1) complexed with cisplatin [Homo sapiens] &gt;pdb|3RE0|B Crystal structure of human apo Cu,Zn superoxide dismutase (SOD1) complexed with cisplatin [Homo sapiens] &gt;pdb|3RE0|C Crystal structure of human apo Cu,Zn superoxide dismutase (SOD1) complexed with cisplatin [Homo sapiens] &gt;pdb|3RE0|D Crystal structure of human apo Cu,Zn superoxide dismutase (SOD1) complexed with cisplatin [Homo sapiens] &gt;pdb|4FF9|A Crystal Structure of cysteinylated WT SOD1. [Homo sapiens] &gt;pdb|4FF9|B Crystal Structure of cysteinylated WT SOD1. [Homo sapiens] &gt;pdb|5O3Y|A SOD1 bound to Ebsulfur [Homo sapiens] &gt;pdb|5O3Y|F SOD1 bound to Ebsulfur [Homo sapiens] &gt;pdb|5O40|A SOD1 bound to Ebselen [Homo sapiens] &gt;pdb|5O40|F SOD1 bound to Ebselen [Homo sapiens] &gt;pdb|6FFK|A Human apo-SOD1 bound to PtCl2(1R,2R-1,4-DACH [Homo sapiens] &gt;pdb|6FFK|B Human apo-SOD1 bound to PtCl2(1R,2R-1,4-DACH [Homo sapiens] &gt;pdb|6FFK|D Human apo-SOD1 bound to PtCl2(1R,2R-1,4-DACH [Homo sapiens] &gt;pdb|6FFK|F Human apo-SOD1 bound to PtCl2(1R,2R-1,4-DACH [Homo sapiens]</Hit_def>
+  <Hit_accession>1HL5_A</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.375</Hsp_bit-score>
+      <Hsp_score>786</Hsp_score>
+      <Hsp_evalue>3.98422e-105</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>pdb|1HL4|A</Hit_id>
+  <Hit_def>The Structure of Apo Type Human Cu, Zn Superoxide Dismutase [Homo sapiens] &gt;pdb|1HL4|B The Structure of Apo Type Human Cu, Zn Superoxide Dismutase [Homo sapiens] &gt;pdb|1HL4|C The Structure of Apo Type Human Cu, Zn Superoxide Dismutase [Homo sapiens] &gt;pdb|1HL4|D The Structure of Apo Type Human Cu, Zn Superoxide Dismutase [Homo sapiens] &gt;pdb|1SPD|A AMYOTROPHIC LATERAL SCLEROSIS AND STRUCTURAL DEFECTS IN CU,ZN SUPEROXIDE DISMUTASE [Homo sapiens] &gt;pdb|1SPD|B AMYOTROPHIC LATERAL SCLEROSIS AND STRUCTURAL DEFECTS IN CU,ZN SUPEROXIDE DISMUTASE [Homo sapiens]</Hit_def>
+  <Hit_accession>1HL4_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.375</Hsp_bit-score>
+      <Hsp_score>786</Hsp_score>
+      <Hsp_evalue>4.12423e-105</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>pdb|2ZKW|A</Hit_id>
+  <Hit_def>Crystal structure of human Cu-Zn superoxide dismutase mutant G85R in space group P21 [Homo sapiens] &gt;pdb|2ZKW|B Crystal structure of human Cu-Zn superoxide dismutase mutant G85R in space group P21 [Homo sapiens] &gt;pdb|2ZKX|A Crystal structure of human Cu-Zn superoxide dismutase mutant G85R in space group I212121 [Homo sapiens] &gt;pdb|2ZKX|B Crystal structure of human Cu-Zn superoxide dismutase mutant G85R in space group I212121 [Homo sapiens] &gt;pdb|2ZKX|C Crystal structure of human Cu-Zn superoxide dismutase mutant G85R in space group I212121 [Homo sapiens] &gt;pdb|2ZKX|D Crystal structure of human Cu-Zn superoxide dismutase mutant G85R in space group I212121 [Homo sapiens]</Hit_def>
+  <Hit_accession>2ZKW_A</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.375</Hsp_bit-score>
+      <Hsp_score>786</Hsp_score>
+      <Hsp_evalue>4.53997e-105</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLRNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDL NVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|AAB05662.1|</Hit_id>
+  <Hit_def>Cu/Zn-superoxide dismutase [Homo sapiens]</Hit_def>
+  <Hit_accession>AAB05662</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.99</Hsp_bit-score>
+      <Hsp_score>785</Hsp_score>
+      <Hsp_evalue>5.30842e-105</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEGSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIE SVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|QIJ55522.1|</Hit_id>
+  <Hit_def>Cu-Zn superoxide dismutase [synthetic construct]</Hit_def>
+  <Hit_accession>QIJ55522</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.99</Hsp_bit-score>
+      <Hsp_score>785</Hsp_score>
+      <Hsp_evalue>6.53213e-105</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>pdb|2NAM|A</Hit_id>
+  <Hit_def>Full-length WT SOD1 in DPC MICELLE [Homo sapiens]</Hit_def>
+  <Hit_accession>2NAM_A</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.605</Hsp_bit-score>
+      <Hsp_score>784</Hsp_score>
+      <Hsp_evalue>8.14895e-105</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>pdb|2WZ6|A</Hit_id>
+  <Hit_def>G93A SOD1 mutant complexed with Quinazoline. [Homo sapiens] &gt;pdb|2WZ6|F G93A SOD1 mutant complexed with Quinazoline. [Homo sapiens] &gt;pdb|3GZP|A Chain A, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|3GZP|B Chain B, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|3GZP|C Chain C, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|3GZP|D Chain D, Superoxide dismutase [Cu-Zn] [Homo sapiens]</Hit_def>
+  <Hit_accession>2WZ6_A</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.22</Hsp_bit-score>
+      <Hsp_score>783</Hsp_score>
+      <Hsp_evalue>1.0698e-104</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDAVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKD VADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>pdb|2WKO|A</Hit_id>
+  <Hit_def>Structure of metal loaded Pathogenic SOD1 Mutant G93A. [Homo sapiens] &gt;pdb|3GZO|A Chain A, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|3GZO|B Chain B, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|3GZO|C Chain C, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|3GZO|D Chain D, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|3GZO|E Chain E, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|3GZO|F Chain F, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|3GZO|G Chain G, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|3GZO|H Chain H, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|3GZO|I Chain I, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|3GZO|J Chain J, Superoxide dismutase [Cu-Zn] [Homo sapiens]</Hit_def>
+  <Hit_accession>2WKO_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.22</Hsp_bit-score>
+      <Hsp_score>783</Hsp_score>
+      <Hsp_evalue>1.10738e-104</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDAVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKD VADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>pdb|2WYT|A</Hit_id>
+  <Hit_def>1.0 A resolution structure of L38V SOD1 mutant [Homo sapiens] &gt;pdb|2WYT|F 1.0 A resolution structure of L38V SOD1 mutant [Homo sapiens] &gt;pdb|2WZ0|A L38V SOD1 mutant complexed with aniline. [Homo sapiens] &gt;pdb|2WZ0|F L38V SOD1 mutant complexed with aniline. [Homo sapiens] &gt;pdb|2WZ5|A L38V SOD1 mutant complexed with L-methionine. [Homo sapiens] &gt;pdb|2WZ5|F L38V SOD1 mutant complexed with L-methionine. [Homo sapiens]</Hit_def>
+  <Hit_accession>2WYT_A</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>305.834</Hsp_bit-score>
+      <Hsp_score>782</Hsp_score>
+      <Hsp_evalue>1.40753e-104</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGVTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKG+TEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>pdb|1UXL|A</Hit_id>
+  <Hit_def>I113T mutant of human SOD1 [Homo sapiens] &gt;pdb|1UXL|B I113T mutant of human SOD1 [Homo sapiens] &gt;pdb|1UXL|C I113T mutant of human SOD1 [Homo sapiens] &gt;pdb|1UXL|D I113T mutant of human SOD1 [Homo sapiens] &gt;pdb|1UXL|E I113T mutant of human SOD1 [Homo sapiens] &gt;pdb|1UXL|F I113T mutant of human SOD1 [Homo sapiens] &gt;pdb|1UXL|G I113T mutant of human SOD1 [Homo sapiens] &gt;pdb|1UXL|H I113T mutant of human SOD1 [Homo sapiens] &gt;pdb|1UXL|I I113T mutant of human SOD1 [Homo sapiens] &gt;pdb|1UXL|J I113T mutant of human SOD1 [Homo sapiens] &gt;pdb|3ECV|A Crystal structure of the ALS-related pathological mutant I113T of human apo Cu,Zn Superoxide Dismutase (SOD1) [Homo sapiens] &gt;pdb|3ECV|B Crystal structure of the ALS-related pathological mutant I113T of human apo Cu,Zn Superoxide Dismutase (SOD1) [Homo sapiens] &gt;pdb|3ECV|C Crystal structure of the ALS-related pathological mutant I113T of human apo Cu,Zn Superoxide Dismutase (SOD1) [Homo sapiens] &gt;pdb|3ECV|D Crystal structure of the ALS-related pathological mutant I113T of human apo Cu,Zn Superoxide Dismutase (SOD1) [Homo sapiens] &gt;pdb|4A7G|F Structure of human I113T SOD1 mutant complexed with 4-methylpiperazin- 1-yl)quinazoline in the p21 space group. [Homo sapiens] &gt;pdb|4A7Q|A Structure of human I113T SOD1 mutant complexed with 4-(4-methyl-1,4- diazepan-1-yl)quinazoline in the p21 space group. [Homo sapiens] &gt;pdb|4A7Q|F Structure of human I113T SOD1 mutant complexed with 4-(4-methyl-1,4- diazepan-1-yl)quinazoline in the p21 space group. [Homo sapiens] &gt;pdb|4A7S|A Structure of human I113T SOD1 mutant complexed with 5-Fluorouridine in the p21 space group [Homo sapiens] &gt;pdb|4A7S|F Structure of human I113T SOD1 mutant complexed with 5-Fluorouridine in the p21 space group [Homo sapiens] &gt;pdb|4A7T|A Structure of human I113T SOD1 mutant complexed with isoproteranol in the p21 space group [Homo sapiens] &gt;pdb|4A7T|F Structure of human I113T SOD1 mutant complexed with isoproteranol in the p21 space group [Homo sapiens] &gt;pdb|4A7U|A Structure of human I113T SOD1 complexed with adrenaline in the p21 space group. [Homo sapiens] &gt;pdb|4A7U|F Structure of human I113T SOD1 complexed with adrenaline in the p21 space group. [Homo sapiens] &gt;pdb|4A7V|A Structure of human I113T SOD1 mutant complexed with dopamine in the p21 space group [Homo sapiens] &gt;pdb|4A7V|F Structure of human I113T SOD1 mutant complexed with dopamine in the p21 space group [Homo sapiens]</Hit_def>
+  <Hit_accession>1UXL_A</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>305.449</Hsp_bit-score>
+      <Hsp_score>781</Hsp_score>
+      <Hsp_evalue>1.95634e-104</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCITGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCI GRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>pdb|1UXM|A</Hit_id>
+  <Hit_def>A4V mutant of human SOD1 [Homo sapiens] &gt;pdb|1UXM|B A4V mutant of human SOD1 [Homo sapiens] &gt;pdb|1UXM|C A4V mutant of human SOD1 [Homo sapiens] &gt;pdb|1UXM|D A4V mutant of human SOD1 [Homo sapiens] &gt;pdb|1UXM|E A4V mutant of human SOD1 [Homo sapiens] &gt;pdb|1UXM|F A4V mutant of human SOD1 [Homo sapiens] &gt;pdb|1UXM|G A4V mutant of human SOD1 [Homo sapiens] &gt;pdb|1UXM|H A4V mutant of human SOD1 [Homo sapiens] &gt;pdb|1UXM|I A4V mutant of human SOD1 [Homo sapiens] &gt;pdb|1UXM|J A4V mutant of human SOD1 [Homo sapiens] &gt;pdb|1UXM|K A4V mutant of human SOD1 [Homo sapiens] &gt;pdb|1UXM|L A4V mutant of human SOD1 [Homo sapiens] &gt;pdb|6SPA|A A4V MUTANT OF HUMAN SUPEROXIDE DISMUTASE 1 IN C2 SPACE GROUP [Homo sapiens] &gt;pdb|6SPA|C A4V MUTANT OF HUMAN SUPEROXIDE DISMUTASE 1 IN C2 SPACE GROUP [Homo sapiens] &gt;pdb|6SPA|E A4V MUTANT OF HUMAN SUPEROXIDE DISMUTASE 1 IN C2 SPACE GROUP [Homo sapiens] &gt;pdb|6SPA|G A4V MUTANT OF HUMAN SUPEROXIDE DISMUTASE 1 IN C2 SPACE GROUP [Homo sapiens] &gt;pdb|6SPA|J A4V MUTANT OF HUMAN SUPEROXIDE DISMUTASE 1 IN C2 SPACE GROUP [Homo sapiens] &gt;pdb|6SPA|L A4V MUTANT OF HUMAN SUPEROXIDE DISMUTASE 1 IN C2 SPACE GROUP [Homo sapiens] &gt;pdb|6SPH|A A4V MUTANT OF HUMAN SUPEROXIDE DISMUTASE 1 WITH EBSELEN BOND IN C2 SPACE GROUP [Homo sapiens] &gt;pdb|6SPH|C A4V MUTANT OF HUMAN SUPEROXIDE DISMUTASE 1 WITH EBSELEN BOND IN C2 SPACE GROUP [Homo sapiens] &gt;pdb|6SPH|E A4V MUTANT OF HUMAN SUPEROXIDE DISMUTASE 1 WITH EBSELEN BOND IN C2 SPACE GROUP [Homo sapiens] &gt;pdb|6SPH|G A4V MUTANT OF HUMAN SUPEROXIDE DISMUTASE 1 WITH EBSELEN BOND IN C2 SPACE GROUP [Homo sapiens] &gt;pdb|6SPH|J A4V MUTANT OF HUMAN SUPEROXIDE DISMUTASE 1 WITH EBSELEN BOND IN C2 SPACE GROUP [Homo sapiens] &gt;pdb|6SPH|L A4V MUTANT OF HUMAN SUPEROXIDE DISMUTASE 1 WITH EBSELEN BOND IN C2 SPACE GROUP [Homo sapiens] &gt;pdb|6SPJ|A A4V MUTANT OF HUMAN SOD1 WITH EBSELEN DERIVATIVE 1 [Homo sapiens] &gt;pdb|6SPJ|B A4V MUTANT OF HUMAN SOD1 WITH EBSELEN DERIVATIVE 1 [Homo sapiens] &gt;pdb|6SPJ|E A4V MUTANT OF HUMAN SOD1 WITH EBSELEN DERIVATIVE 1 [Homo sapiens] &gt;pdb|6SPJ|F A4V MUTANT OF HUMAN SOD1 WITH EBSELEN DERIVATIVE 1 [Homo sapiens] &gt;pdb|6SPJ|I A4V MUTANT OF HUMAN SOD1 WITH EBSELEN DERIVATIVE 1 [Homo sapiens] &gt;pdb|6SPJ|J A4V MUTANT OF HUMAN SOD1 WITH EBSELEN DERIVATIVE 1 [Homo sapiens] &gt;pdb|6SPK|A A4V MUTANT OF HUMAN SOD1 WITH EBSELEN DERIVATIVE 6 [Homo sapiens] &gt;pdb|6SPK|B A4V MUTANT OF HUMAN SOD1 WITH EBSELEN DERIVATIVE 6 [Homo sapiens] &gt;pdb|6SPK|E A4V MUTANT OF HUMAN SOD1 WITH EBSELEN DERIVATIVE 6 [Homo sapiens] &gt;pdb|6SPK|F A4V MUTANT OF HUMAN SOD1 WITH EBSELEN DERIVATIVE 6 [Homo sapiens] &gt;pdb|6SPK|I A4V MUTANT OF HUMAN SOD1 WITH EBSELEN DERIVATIVE 6 [Homo sapiens] &gt;pdb|6SPK|J A4V MUTANT OF HUMAN SOD1 WITH EBSELEN DERIVATIVE 6 [Homo sapiens] &gt;pdb|6Z3V|AAA Chain AAA, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|6Z3V|BBB Chain BBB, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|6Z4G|AAA Chain AAA, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|6Z4G|BBB Chain BBB, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|6Z4H|AAA Chain AAA, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|6Z4H|BBB Chain BBB, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|6Z4I|AAA Chain AAA, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|6Z4I|FFF Chain FFF, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|6Z4J|AAA Chain AAA, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|6Z4J|BBB Chain BBB, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|6Z4K|AAA Chain AAA, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|6Z4K|BBB Chain BBB, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|6Z4L|AAA Chain AAA, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|6Z4L|BBB Chain BBB, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|6Z4M|AAA Chain AAA, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|6Z4M|BBB Chain BBB, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|6Z4O|AAA Chain AAA, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|6Z4O|BBB Chain BBB, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;gb|AAB27818.1| Cu,Zn superoxide dismutase, SOD=SOD1 gene product {A to V single-site mutation} [human, Peptide Mutant, 153 aa] [Homo sapiens]</Hit_def>
+  <Hit_accession>1UXM_A</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>305.064</Hsp_bit-score>
+      <Hsp_score>780</Hsp_score>
+      <Hsp_evalue>2.51806e-104</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>ATKVVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>ATK VCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>pdb|3GZQ|A</Hit_id>
+  <Hit_def>Chain A, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|3GZQ|B Chain B, Superoxide dismutase [Cu-Zn] [Homo sapiens]</Hit_def>
+  <Hit_accession>3GZQ_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>305.064</Hsp_bit-score>
+      <Hsp_score>780</Hsp_score>
+      <Hsp_evalue>2.60648e-104</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>ATKVVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>ATK VCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>pdb|1N18|A</Hit_id>
+  <Hit_def>Chain A, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|1N18|B Chain B, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|1N18|C Chain C, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|1N18|D Chain D, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|1N18|E Chain E, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|1N18|F Chain F, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|1N18|G Chain G, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|1N18|H Chain H, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|1N18|I Chain I, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|1N18|J Chain J, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;gb|AAA72747.1| CuZn superoxide dismutase [synthetic construct]</Hit_def>
+  <Hit_accession>1N18_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>305.064</Hsp_bit-score>
+      <Hsp_score>780</Hsp_score>
+      <Hsp_evalue>2.78388e-104</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>MATKAVAVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHSIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>MATKAV VLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDH IIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>pdb|1OEZ|W</Hit_id>
+  <Hit_def>Zn His46Arg mutant of Human Cu, Zn Superoxide Dismutase [Homo sapiens] &gt;pdb|1OEZ|X Zn His46Arg mutant of Human Cu, Zn Superoxide Dismutase [Homo sapiens] &gt;pdb|1OEZ|Y Zn His46Arg mutant of Human Cu, Zn Superoxide Dismutase [Homo sapiens] &gt;pdb|1OEZ|Z Zn His46Arg mutant of Human Cu, Zn Superoxide Dismutase [Homo sapiens] &gt;pdb|1OZT|G Chain G, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|1OZT|H Chain H, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|1OZT|I Chain I, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|1OZT|J Chain J, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|1OZT|K Chain K, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|1OZT|L Chain L, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|1OZT|M Chain M, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|1OZT|N Chain N, Superoxide dismutase [Cu-Zn] [Homo sapiens]</Hit_def>
+  <Hit_accession>1OEZ_W</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>305.064</Hsp_bit-score>
+      <Hsp_score>780</Hsp_score>
+      <Hsp_evalue>3.13609e-104</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFRVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGF VHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>pdb|3H2Q|A</Hit_id>
+  <Hit_def>Chain A, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|3H2Q|B Chain B, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|3H2Q|C Chain C, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|3H2Q|D Chain D, Superoxide dismutase [Cu-Zn] [Homo sapiens]</Hit_def>
+  <Hit_accession>3H2Q_A</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>305.064</Hsp_bit-score>
+      <Hsp_score>780</Hsp_score>
+      <Hsp_evalue>3.13609e-104</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERRVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEER VGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>pdb|3ECW|A</Hit_id>
+  <Hit_def>Chain A, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|3ECW|B Chain B, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|3ECW|C Chain C, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|3ECW|D Chain D, Superoxide dismutase [Cu-Zn] [Homo sapiens]</Hit_def>
+  <Hit_accession>3ECW_A</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>305.064</Hsp_bit-score>
+      <Hsp_score>780</Hsp_score>
+      <Hsp_evalue>3.3865e-104</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNRAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDN AGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>pdb|2VR6|A</Hit_id>
+  <Hit_def>Crystal Structure of G85R ALS mutant of Human Cu,Zn Superoxide Dismutase (CuZnSOD) at 1.3 A resolution [Homo sapiens] &gt;pdb|2VR6|F Crystal Structure of G85R ALS mutant of Human Cu,Zn Superoxide Dismutase (CuZnSOD) at 1.3 A resolution [Homo sapiens] &gt;pdb|3CQP|A Human SOD1 G85R Variant, Structure I [Homo sapiens] &gt;pdb|3CQP|B Human SOD1 G85R Variant, Structure I [Homo sapiens] &gt;pdb|3CQP|C Human SOD1 G85R Variant, Structure I [Homo sapiens] &gt;pdb|3CQP|D Human SOD1 G85R Variant, Structure I [Homo sapiens]</Hit_def>
+  <Hit_accession>2VR6_A</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>304.679</Hsp_bit-score>
+      <Hsp_score>779</Hsp_score>
+      <Hsp_evalue>3.42387e-104</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLRNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDL NVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>pdb|1AZV|A</Hit_id>
+  <Hit_def>Familial Als Mutant G37r Cuznsod (Human) [Homo sapiens] &gt;pdb|1AZV|B Familial Als Mutant G37r Cuznsod (Human) [Homo sapiens]</Hit_def>
+  <Hit_accession>1AZV_A</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>304.679</Hsp_bit-score>
+      <Hsp_score>779</Hsp_score>
+      <Hsp_evalue>3.42387e-104</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKRLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIK LTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>pdb|2VR7|A</Hit_id>
+  <Hit_def>Crystal Structure of G85R ALS mutant of Human Cu,Zn Superoxide Dismutase (CuZnSOD) at 1.58 A resolution [Homo sapiens] &gt;pdb|2VR7|F Crystal Structure of G85R ALS mutant of Human Cu,Zn Superoxide Dismutase (CuZnSOD) at 1.58 A resolution [Homo sapiens]</Hit_def>
+  <Hit_accession>2VR7_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>304.679</Hsp_bit-score>
+      <Hsp_score>779</Hsp_score>
+      <Hsp_evalue>3.54409e-104</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLRNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDL NVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>pdb|5K02|A</Hit_id>
+  <Hit_def>Structure of human SOD1 with T2D mutation [Homo sapiens] &gt;pdb|5K02|B Structure of human SOD1 with T2D mutation [Homo sapiens] &gt;pdb|5K02|C Structure of human SOD1 with T2D mutation [Homo sapiens] &gt;pdb|5K02|D Structure of human SOD1 with T2D mutation [Homo sapiens] &gt;pdb|5K02|E Structure of human SOD1 with T2D mutation [Homo sapiens] &gt;pdb|5K02|F Structure of human SOD1 with T2D mutation [Homo sapiens] &gt;pdb|5K02|G Structure of human SOD1 with T2D mutation [Homo sapiens] &gt;pdb|5K02|H Structure of human SOD1 with T2D mutation [Homo sapiens] &gt;pdb|5K02|I Structure of human SOD1 with T2D mutation [Homo sapiens] &gt;pdb|5K02|J Structure of human SOD1 with T2D mutation [Homo sapiens] &gt;pdb|5K02|K Structure of human SOD1 with T2D mutation [Homo sapiens] &gt;pdb|5K02|L Structure of human SOD1 with T2D mutation [Homo sapiens] &gt;pdb|5K02|M Structure of human SOD1 with T2D mutation [Homo sapiens] &gt;pdb|5K02|N Structure of human SOD1 with T2D mutation [Homo sapiens] &gt;pdb|5K02|O Structure of human SOD1 with T2D mutation [Homo sapiens] &gt;pdb|5K02|P Structure of human SOD1 with T2D mutation [Homo sapiens] &gt;pdb|5K02|Q Structure of human SOD1 with T2D mutation [Homo sapiens] &gt;pdb|5K02|R Structure of human SOD1 with T2D mutation [Homo sapiens] &gt;pdb|5K02|S Structure of human SOD1 with T2D mutation [Homo sapiens] &gt;pdb|5K02|T Structure of human SOD1 with T2D mutation [Homo sapiens] &gt;pdb|5K02|U Structure of human SOD1 with T2D mutation [Homo sapiens] &gt;pdb|5K02|V Structure of human SOD1 with T2D mutation [Homo sapiens] &gt;pdb|5K02|W Structure of human SOD1 with T2D mutation [Homo sapiens] &gt;pdb|5K02|X Structure of human SOD1 with T2D mutation [Homo sapiens]</Hit_def>
+  <Hit_accession>5K02_A</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>304.679</Hsp_bit-score>
+      <Hsp_score>779</Hsp_score>
+      <Hsp_evalue>4.21768e-104</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>ADKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>A KAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>pdb|4MCM|A</Hit_id>
+  <Hit_def>Human SOD1 C57S Mutant, As-isolated [Homo sapiens] &gt;pdb|4MCM|B Human SOD1 C57S Mutant, As-isolated [Homo sapiens] &gt;pdb|4MCM|C Human SOD1 C57S Mutant, As-isolated [Homo sapiens] &gt;pdb|4MCM|D Human SOD1 C57S Mutant, As-isolated [Homo sapiens] &gt;pdb|4MCM|E Human SOD1 C57S Mutant, As-isolated [Homo sapiens] &gt;pdb|4MCM|F Human SOD1 C57S Mutant, As-isolated [Homo sapiens] &gt;pdb|4MCM|G Human SOD1 C57S Mutant, As-isolated [Homo sapiens] &gt;pdb|4MCM|H Human SOD1 C57S Mutant, As-isolated [Homo sapiens] &gt;pdb|4MCM|I Human SOD1 C57S Mutant, As-isolated [Homo sapiens] &gt;pdb|4MCM|J Human SOD1 C57S Mutant, As-isolated [Homo sapiens] &gt;pdb|4MCM|K Human SOD1 C57S Mutant, As-isolated [Homo sapiens] &gt;pdb|4MCM|L Human SOD1 C57S Mutant, As-isolated [Homo sapiens] &gt;pdb|4MCN|A Human SOD1 C57S Mutant, Metal-free [Homo sapiens] &gt;pdb|4MCN|B Human SOD1 C57S Mutant, Metal-free [Homo sapiens]</Hit_def>
+  <Hit_accession>4MCM_A</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>304.294</Hsp_bit-score>
+      <Hsp_score>778</Hsp_score>
+      <Hsp_evalue>5.08274e-104</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGSTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAG TSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>pdb|3H2P|A</Hit_id>
+  <Hit_def>Chain A, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|3H2P|B Chain B, Superoxide dismutase [Cu-Zn] [Homo sapiens]</Hit_def>
+  <Hit_accession>3H2P_A</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.908</Hsp_bit-score>
+      <Hsp_score>777</Hsp_score>
+      <Hsp_evalue>8.05887e-104</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKAVDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKA DLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>pdb|4A7G|A</Hit_id>
+  <Hit_def>Structure of human I113T SOD1 mutant complexed with 4-methylpiperazin- 1-yl)quinazoline in the p21 space group. [Homo sapiens]</Hit_def>
+  <Hit_accession>4A7G_A</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.908</Hsp_bit-score>
+      <Hsp_score>777</Hsp_score>
+      <Hsp_evalue>9.60575e-104</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSTEDSVISLSGDHCITGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVS EDSVISLSGDHCI GRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>pdb|2C9S|A</Hit_id>
+  <Hit_def>1.24 Angstroms resolution structure of Zn-Zn Human Superoxide dismutase [Homo sapiens] &gt;pdb|2C9S|F 1.24 Angstroms resolution structure of Zn-Zn Human Superoxide dismutase [Homo sapiens] &gt;pdb|3T5W|A 2ME modified human SOD1 [Homo sapiens] &gt;pdb|3T5W|B 2ME modified human SOD1 [Homo sapiens] &gt;pdb|3T5W|D 2ME modified human SOD1 [Homo sapiens] &gt;pdb|3T5W|E 2ME modified human SOD1 [Homo sapiens] &gt;pdb|3T5W|F 2ME modified human SOD1 [Homo sapiens] &gt;pdb|3T5W|G 2ME modified human SOD1 [Homo sapiens] &gt;pdb|3T5W|H 2ME modified human SOD1 [Homo sapiens] &gt;pdb|3T5W|I 2ME modified human SOD1 [Homo sapiens] &gt;pdb|3T5W|J 2ME modified human SOD1 [Homo sapiens] &gt;pdb|3T5W|K 2ME modified human SOD1 [Homo sapiens] &gt;pdb|3T5W|L 2ME modified human SOD1 [Homo sapiens] &gt;pdb|3T5W|M 2ME modified human SOD1 [Homo sapiens]</Hit_def>
+  <Hit_accession>2C9S_A</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.523</Hsp_bit-score>
+      <Hsp_score>776</Hsp_score>
+      <Hsp_evalue>1.04872e-103</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHXIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDH IIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>pdb|3GQF|A</Hit_id>
+  <Hit_def>Chain A, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|3GQF|B Chain B, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|3GQF|C Chain C, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|3GQF|D Chain D, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|3GQF|E Chain E, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|3GQF|F Chain F, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|3K91|A Chain A, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|3K91|B Chain B, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|5U9M|A Copper-Zinc Superoxide Dismutase is Activated through a Sulfenic Acid Intermediate at a Copper-ion Entry Site [Homo sapiens] &gt;pdb|5U9M|C Copper-Zinc Superoxide Dismutase is Activated through a Sulfenic Acid Intermediate at a Copper-ion Entry Site [Homo sapiens]</Hit_def>
+  <Hit_accession>3GQF_A</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.138</Hsp_bit-score>
+      <Hsp_score>775</Hsp_score>
+      <Hsp_evalue>1.53983e-103</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFRVQEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGF V EFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>pdb|2NNX|A</Hit_id>
+  <Hit_def>Chain A, SUPEROXIDE DISMUTASE [CU-ZN] [Homo sapiens] &gt;pdb|2NNX|B Chain B, SUPEROXIDE DISMUTASE [CU-ZN] [Homo sapiens] &gt;pdb|2NNX|C Chain C, SUPEROXIDE DISMUTASE [CU-ZN] [Homo sapiens] &gt;pdb|2NNX|D Chain D, SUPEROXIDE DISMUTASE [CU-ZN] [Homo sapiens]</Hit_def>
+  <Hit_accession>2NNX_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.138</Hsp_bit-score>
+      <Hsp_score>775</Hsp_score>
+      <Hsp_evalue>1.59386e-103</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFRVQEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGF V EFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>pdb|1N19|A</Hit_id>
+  <Hit_def>Chain A, Superoxide Dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|1N19|B Chain B, Superoxide Dismutase [Cu-Zn] [Homo sapiens]</Hit_def>
+  <Hit_accession>1N19_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.138</Hsp_bit-score>
+      <Hsp_score>775</Hsp_score>
+      <Hsp_evalue>1.66538e-103</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>MATKVVAVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHSIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>MATK V VLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDH IIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>dbj|BAA14373.1|</Hit_id>
+  <Hit_def>unnamed protein product, partial [Schizosaccharomyces pombe]</Hit_def>
+  <Hit_accession>BAA14373</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.908</Hsp_bit-score>
+      <Hsp_score>777</Hsp_score>
+      <Hsp_evalue>1.69906e-103</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGI</Hsp_qseq>
+      <Hsp_hseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGI</Hsp_hseq>
+      <Hsp_midline>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>pdb|6FOI|A</Hit_id>
+  <Hit_def>Human Cys57/156Ala superoxide dismutase-1 (SOD1), as isolated. [Homo sapiens] &gt;pdb|6FOI|D Human Cys57/156Ala superoxide dismutase-1 (SOD1), as isolated. [Homo sapiens] &gt;pdb|6FOI|F Human Cys57/156Ala superoxide dismutase-1 (SOD1), as isolated. [Homo sapiens] &gt;pdb|6FOI|G Human Cys57/156Ala superoxide dismutase-1 (SOD1), as isolated. [Homo sapiens] &gt;pdb|6FOI|I Human Cys57/156Ala superoxide dismutase-1 (SOD1), as isolated. [Homo sapiens] &gt;pdb|6FOI|K Human Cys57/156Ala superoxide dismutase-1 (SOD1), as isolated. [Homo sapiens] &gt;pdb|6FOI|M Human Cys57/156Ala superoxide dismutase-1 (SOD1), as isolated. [Homo sapiens] &gt;pdb|6FOI|O Human Cys57/156Ala superoxide dismutase-1 (SOD1), as isolated. [Homo sapiens] &gt;pdb|6FOI|Q Human Cys57/156Ala superoxide dismutase-1 (SOD1), as isolated. [Homo sapiens] &gt;pdb|6FOI|S Human Cys57/156Ala superoxide dismutase-1 (SOD1), as isolated. [Homo sapiens] &gt;pdb|6FOI|U Human Cys57/156Ala superoxide dismutase-1 (SOD1), as isolated. [Homo sapiens] &gt;pdb|6FOI|W Human Cys57/156Ala superoxide dismutase-1 (SOD1), as isolated. [Homo sapiens] &gt;pdb|6FOL|B Domain II of the human copper chaperone in complex with human Cu,Zn superoxide dismutase [Homo sapiens] &gt;pdb|6FOL|C Domain II of the human copper chaperone in complex with human Cu,Zn superoxide dismutase [Homo sapiens] &gt;pdb|6FOL|F Domain II of the human copper chaperone in complex with human Cu,Zn superoxide dismutase [Homo sapiens] &gt;pdb|6FOL|G Domain II of the human copper chaperone in complex with human Cu,Zn superoxide dismutase [Homo sapiens] &gt;pdb|6FON|B Elongated conformer of the human copper chaperone for SOD1 complexed with human SOD1 [Homo sapiens] &gt;pdb|6FON|D Elongated conformer of the human copper chaperone for SOD1 complexed with human SOD1 [Homo sapiens] &gt;pdb|6FP6|A Complex of human Cu,Zn SOD1 with the human copper chaperone for SOD1 in a compact conformation [Homo sapiens] &gt;pdb|6FP6|C Complex of human Cu,Zn SOD1 with the human copper chaperone for SOD1 in a compact conformation [Homo sapiens] &gt;pdb|6FP6|E Complex of human Cu,Zn SOD1 with the human copper chaperone for SOD1 in a compact conformation [Homo sapiens] &gt;pdb|6FP6|G Complex of human Cu,Zn SOD1 with the human copper chaperone for SOD1 in a compact conformation [Homo sapiens] &gt;pdb|6FP6|I Complex of human Cu,Zn SOD1 with the human copper chaperone for SOD1 in a compact conformation [Homo sapiens] &gt;pdb|6FP6|K Complex of human Cu,Zn SOD1 with the human copper chaperone for SOD1 in a compact conformation [Homo sapiens] &gt;pdb|6FP6|M Complex of human Cu,Zn SOD1 with the human copper chaperone for SOD1 in a compact conformation [Homo sapiens] &gt;pdb|6FP6|O Complex of human Cu,Zn SOD1 with the human copper chaperone for SOD1 in a compact conformation [Homo sapiens] &gt;pdb|6FP6|Q Complex of human Cu,Zn SOD1 with the human copper chaperone for SOD1 in a compact conformation [Homo sapiens] &gt;pdb|6FP6|S Complex of human Cu,Zn SOD1 with the human copper chaperone for SOD1 in a compact conformation [Homo sapiens] &gt;pdb|6FP6|U Complex of human Cu,Zn SOD1 with the human copper chaperone for SOD1 in a compact conformation [Homo sapiens] &gt;pdb|6FP6|W Complex of human Cu,Zn SOD1 with the human copper chaperone for SOD1 in a compact conformation [Homo sapiens]</Hit_def>
+  <Hit_accession>6FOI_A</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>302.753</Hsp_bit-score>
+      <Hsp_score>774</Hsp_score>
+      <Hsp_evalue>2.46838e-103</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGATSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLAAGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAG TSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLA GVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>pdb|2GBT|A</Hit_id>
+  <Hit_def>C6A/C111A CuZn Superoxide dismutase [Homo sapiens] &gt;pdb|2GBT|B C6A/C111A CuZn Superoxide dismutase [Homo sapiens] &gt;pdb|2GBT|C C6A/C111A CuZn Superoxide dismutase [Homo sapiens] &gt;pdb|2GBT|D C6A/C111A CuZn Superoxide dismutase [Homo sapiens]</Hit_def>
+  <Hit_accession>2GBT_A</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>302.753</Hsp_bit-score>
+      <Hsp_score>774</Hsp_score>
+      <Hsp_evalue>2.46838e-103</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>ATKAVAVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHAIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>ATKAV VLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDH IIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>pdb|1L3N|A</Hit_id>
+  <Hit_def>Chain A, superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|1L3N|B Chain B, superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|2AF2|A Solution structure of disulfide reduced and copper depleted Human Superoxide Dismutase [Homo sapiens] &gt;pdb|2AF2|B Solution structure of disulfide reduced and copper depleted Human Superoxide Dismutase [Homo sapiens] &gt;pdb|2LU5|A Structure and chemical shifts of Cu(I),Zn(II) superoxide dismutase by solid-state NMR [Homo sapiens]</Hit_def>
+  <Hit_accession>1L3N_A</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>302.368</Hsp_bit-score>
+      <Hsp_score>773</Hsp_score>
+      <Hsp_evalue>3.5456e-103</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>ATKAVAVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHSIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>ATKAV VLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDH IIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>pdb|1OZU|A</Hit_id>
+  <Hit_def>Chain A, Superoxide dismutase [Cu-Zn] [Homo sapiens] &gt;pdb|1OZU|B Chain B, Superoxide dismutase [Cu-Zn] [Homo sapiens]</Hit_def>
+  <Hit_accession>1OZU_A</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>302.368</Hsp_bit-score>
+      <Hsp_score>773</Hsp_score>
+      <Hsp_evalue>3.5456e-103</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHXIIGRTLVVHEKADDLGKGGNEENTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDH IIGRTLVVHEKADDLGKGGNEE+TKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>pdb|2WKO|F</Hit_id>
+  <Hit_def>Structure of metal loaded Pathogenic SOD1 Mutant G93A. [Homo sapiens]</Hit_def>
+  <Hit_accession>2WKO_F</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>302.368</Hsp_bit-score>
+      <Hsp_score>773</Hsp_score>
+      <Hsp_evalue>3.59031e-103</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDAVADVSIEDSVISLSGDHXIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKD VADVSIEDSVISLSGDH IIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>pdb|1SOS|A</Hit_id>
+  <Hit_def>ATOMIC STRUCTURES OF WILD-TYPE AND THERMOSTABLE MUTANT RECOMBINANT HUMAN CU, ZN SUPEROXIDE DISMUTASE [Homo sapiens] &gt;pdb|1SOS|B ATOMIC STRUCTURES OF WILD-TYPE AND THERMOSTABLE MUTANT RECOMBINANT HUMAN CU, ZN SUPEROXIDE DISMUTASE [Homo sapiens] &gt;pdb|1SOS|C ATOMIC STRUCTURES OF WILD-TYPE AND THERMOSTABLE MUTANT RECOMBINANT HUMAN CU, ZN SUPEROXIDE DISMUTASE [Homo sapiens] &gt;pdb|1SOS|D ATOMIC STRUCTURES OF WILD-TYPE AND THERMOSTABLE MUTANT RECOMBINANT HUMAN CU, ZN SUPEROXIDE DISMUTASE [Homo sapiens] &gt;pdb|1SOS|E ATOMIC STRUCTURES OF WILD-TYPE AND THERMOSTABLE MUTANT RECOMBINANT HUMAN CU, ZN SUPEROXIDE DISMUTASE [Homo sapiens] &gt;pdb|1SOS|F ATOMIC STRUCTURES OF WILD-TYPE AND THERMOSTABLE MUTANT RECOMBINANT HUMAN CU, ZN SUPEROXIDE DISMUTASE [Homo sapiens] &gt;pdb|1SOS|G ATOMIC STRUCTURES OF WILD-TYPE AND THERMOSTABLE MUTANT RECOMBINANT HUMAN CU, ZN SUPEROXIDE DISMUTASE [Homo sapiens] &gt;pdb|1SOS|H ATOMIC STRUCTURES OF WILD-TYPE AND THERMOSTABLE MUTANT RECOMBINANT HUMAN CU, ZN SUPEROXIDE DISMUTASE [Homo sapiens] &gt;pdb|1SOS|I ATOMIC STRUCTURES OF WILD-TYPE AND THERMOSTABLE MUTANT RECOMBINANT HUMAN CU, ZN SUPEROXIDE DISMUTASE [Homo sapiens] &gt;pdb|1SOS|J ATOMIC STRUCTURES OF WILD-TYPE AND THERMOSTABLE MUTANT RECOMBINANT HUMAN CU, ZN SUPEROXIDE DISMUTASE [Homo sapiens]</Hit_def>
+  <Hit_accession>1SOS_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>302.368</Hsp_bit-score>
+      <Hsp_score>773</Hsp_score>
+      <Hsp_evalue>3.66998e-103</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>ATKAVAVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHSIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>ATKAV VLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDH IIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>pdb|2WYZ|A</Hit_id>
+  <Hit_def>L38V SOD1 mutant complexed with UMP [Homo sapiens] &gt;pdb|2WYZ|F L38V SOD1 mutant complexed with UMP [Homo sapiens]</Hit_def>
+  <Hit_accession>2WYZ_A</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.982</Hsp_bit-score>
+      <Hsp_score>772</Hsp_score>
+      <Hsp_evalue>4.31994e-103</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGVTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHXIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKG+TEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDH IIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>pdb|3CQQ|A</Hit_id>
+  <Hit_def>Human SOD1 G85R Variant, Structure II [Homo sapiens] &gt;pdb|3CQQ|B Human SOD1 G85R Variant, Structure II [Homo sapiens]</Hit_def>
+  <Hit_accession>3CQQ_A</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.212</Hsp_bit-score>
+      <Hsp_score>770</Hsp_score>
+      <Hsp_evalue>8.71966e-103</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLRNVTADKDGVADVSIEDSVISLSGDHXIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDL NVTADKDGVADVSIEDSVISLSGDH IIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>pdb|2VR8|A</Hit_id>
+  <Hit_def>Crystal Structure of G85R ALS mutant of Human Cu,Zn Superoxide Dismutase (CuZnSOD) at 1.36 A resolution [Homo sapiens] &gt;pdb|2VR8|F Crystal Structure of G85R ALS mutant of Human Cu,Zn Superoxide Dismutase (CuZnSOD) at 1.36 A resolution [Homo sapiens]</Hit_def>
+  <Hit_accession>2VR8_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.212</Hsp_bit-score>
+      <Hsp_score>770</Hsp_score>
+      <Hsp_evalue>9.02544e-103</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLRNVTADKDGVADVSIEDSVISLSGDHXIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDL NVTADKDGVADVSIEDSVISLSGDH IIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>pdb|3QQD|A</Hit_id>
+  <Hit_def>Human SOD1 H80R variant, P212121 crystal form [Homo sapiens] &gt;pdb|3QQD|B Human SOD1 H80R variant, P212121 crystal form [Homo sapiens]</Hit_def>
+  <Hit_accession>3QQD_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.212</Hsp_bit-score>
+      <Hsp_score>770</Hsp_score>
+      <Hsp_evalue>9.32751e-103</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_qseq>
+      <Hsp_hseq>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERRVGDLGNVTADKDGVADVSIEDSVISLSGDHXIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_hseq>
+      <Hsp_midline>ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEER VGDLGNVTADKDGVADVSIEDSVISLSGDH IIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>438623493</Statistics_db-num>
+      <Statistics_db-len>24111014</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
