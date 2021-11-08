@@ -1,5 +1,4 @@
 from Bio import SeqIO
-from Bio.Blast import NCBIXML
 from Bio.Blast import NCBIWWW
 import argparse
 

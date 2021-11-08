@@ -27,9 +27,7 @@ def main():
         print(f"Error: file extension .{file_extension} not supported. File must be in FASTA format.")
         quit()
     
-    file_format = file_formats[file_extension]
-    record = SeqIO.parse(input_path, file_format)
-    cline = ClustalwCommandline(clustalw_exe, infile=input_path)
+    cline = ClustalwCommandline(clustalw_exe, infile=input_path, outfile=output_path)
     stdout, stderr = cline()
 
 if __name__ == "__main__":
