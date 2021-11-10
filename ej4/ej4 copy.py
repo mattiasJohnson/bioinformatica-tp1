@@ -22,19 +22,13 @@ try:
     pattern_input=args['pattern']
     contents = input.read()
  
-    start='''<?xml version="1.0"?>
-            <!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
-            <BlastOutput>
-                <BlastOutput_iterations>
-                    <Iteration>
-                        <Iteration_hits>'''
-
-    output.write(start)
     soup = BeautifulSoup(contents, 'html.parser')
 
     # Finding a pattern(certain text)
     pattern = lambda t: (pattern_input) in t
  
+    # Anchor tag
+    # soup.find('hit_def', text = pattern).parent
     all = soup.findAll('hit_def', text = pattern)
     # parent=all.find_parent('hit')
     for val in all:
@@ -43,17 +37,12 @@ try:
         print(parent)
         output.write(str(parent))
 
-    end ='''<Iteration_hits>
-            <Iteration>
-            <BlastOutput_iterations>
-            <BlastOutput>'''
-    output.write(end)
     # html = soup.prettify("utf-8")
     # print(html)
     # output.write(html)
 
-    input.close()
-    output.close()
+    # input.close()
+    # output.close()
 
 except Exception as e:
     output.close()

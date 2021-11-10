@@ -1,6 +1,6 @@
 ########################################
 # Program: patmatmotifs
-# Rundate: Sun  7 Nov 2021 20:15:54
+# Rundate: Mon  8 Nov 2021 16:10:36
 # Commandline: patmatmotifs
 #    -full
 #    -sequence sod1_mrna.orf
@@ -11,7 +11,7 @@
 
 #=======================================
 #
-# Sequence: NM_000454_1     from: 1   to: 156
+# Sequence: NM_000454.5_1     from: 1   to: 156
 # HitCount: 2
 #
 # Full: Yes

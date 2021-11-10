@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+            <!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+            <BlastOutput>
+                <BlastOutput_iterations>
+                    <Iteration>
+                        <Iteration_hits><hit>
+<hit_num>1</hit_num>
+<hit_id>ref|NP_000445.1|</hit_id>
+<hit_def>superoxide ref [Homo sapiens]</hit_def>
+<hit_accession>NP_000445</hit_accession>
+<hit_len>154</hit_len>
+<hit_hsps>
+<hsp>
+<hsp_num>1</hsp_num>
+<hsp_bit-score>310.071</hsp_bit-score>
+<hsp_score>793</hsp_score>
+<hsp_evalue>2.65325e-106</hsp_evalue>
+<hsp_query-from>3</hsp_query-from>
+<hsp_query-to>156</hsp_query-to>
+<hsp_hit-from>1</hsp_hit-from>
+<hsp_hit-to>154</hsp_hit-to>
+<hsp_query-frame>0</hsp_query-frame>
+<hsp_hit-frame>0</hsp_hit-frame>
+<hsp_identity>154</hsp_identity>
+<hsp_positive>154</hsp_positive>
+<hsp_gaps>0</hsp_gaps>
+<hsp_align-len>154</hsp_align-len>
+<hsp_qseq>
+                MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ
+              </hsp_qseq>
+<hsp_hseq>
+                MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ
+              </hsp_hseq>
+<hsp_midline>
+                MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ
+              </hsp_midline>
+</hsp>
+</hit_hsps>
+</hit><hit>
+<hit_num>2</hit_num>
+<hit_id>ref|NP_000445.1|</hit_id>
+<hit_def>superoxide ref [Homo sapiens]</hit_def>
+<hit_accession>NP_000445</hit_accession>
+<hit_len>154</hit_len>
+<hit_hsps>
+<hsp>
+<hsp_num>1</hsp_num>
+<hsp_bit-score>310.071</hsp_bit-score>
+<hsp_score>793</hsp_score>
+<hsp_evalue>2.65325e-106</hsp_evalue>
+<hsp_query-from>3</hsp_query-from>
+<hsp_query-to>156</hsp_query-to>
+<hsp_hit-from>1</hsp_hit-from>
+<hsp_hit-to>154</hsp_hit-to>
+<hsp_query-frame>0</hsp_query-frame>
+<hsp_hit-frame>0</hsp_hit-frame>
+<hsp_identity>154</hsp_identity>
+<hsp_positive>154</hsp_positive>
+<hsp_gaps>0</hsp_gaps>
+<hsp_align-len>154</hsp_align-len>
+<hsp_qseq>
+                MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ
+              </hsp_qseq>
+<hsp_hseq>
+                MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ
+              </hsp_hseq>
+<hsp_midline>
+                MATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ
+              </hsp_midline>
+</hsp>
+</hit_hsps>
+</hit><Iteration_hits>
+            <Iteration>
+            <BlastOutput_iterations>
+            <BlastOutput>
