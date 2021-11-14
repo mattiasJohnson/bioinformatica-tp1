@@ -35,7 +35,7 @@ def findOrfs(seq, min_length):
             # Frame length to search codons in
             length = 3 * ((len(nseq)-frame) // 3)
             orfs.extend(
-                [[orf, strand] for orf in markStops(nseq[frame:frame+length]).split(".") if len(orf) >= min_length]
+                [[fromStart(orf), strand] for orf in markStops(nseq[frame:frame+length]).split(".") if len(orf) >= min_length]
             )
     return orfs
 
