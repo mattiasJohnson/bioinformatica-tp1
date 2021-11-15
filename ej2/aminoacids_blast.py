@@ -37,21 +37,17 @@ def main():
         print(f"Error: file extension .{file_extension} not supported. File must be in FASTA format.")
         quit()
 
-    file_format = file_formats[file_extension]
     if database is None:
-        record = SeqIO.parse(input_path, file_format)
         try:
             save_file = open(output_path, "w")
-            for rec in record:
-                print(f"Reading record:\n{rec}")
-                print("Querying NCBI database...")
-                result = NCBIWWW.qblast("blastp", "nr", rec.format("fasta"), hitlist_size=hitlist_size, expect=evalue)
-                print("Saving BLAST report...")
-                save_file.write(result.read())
-                result.close()
-                print(f"BLAST report saved in {output_path}")
-            
+            input_file = open(input_path)
+            print("Querying NCBI database...")
+            result = NCBIWWW.qblast("blastp", "nr", input_file.read(), hitlist_size=hitlist_size, expect=evalue)
+            print("Saving BLAST report...")
+            save_file.write(result.read())
+            result.close()
             save_file.close()
+            print(f"BLAST report saved in {output_path}")    
         except Exception as e:
             save_file.close()
             result.close()
@@ -59,7 +55,7 @@ def main():
     else:
         print(f"Querying local {database} database...")
         blastx_cline = NcbiblastpCommandline(cmd=blastp, query=input_path, db=database, evalue=evalue,
-                                            outfmt=5, out=output_path, num_alignments=hitlist_size)
+                                            outfmt=5, out=f'{output_path}.blast', num_alignments=hitlist_size)
         stdout, stderr = blastx_cline()
 
 if __name__ == "__main__":
