@@ -7,6 +7,8 @@ from xml.dom import minidom
 from bs4 import BeautifulSoup
 from bs4.builder import HTMLTreeBuilder
 
+import convert_xml_to_html
+
 argparser = argparse.ArgumentParser(description='Blast Parser',
                                     formatter_class=argparse.RawTextHelpFormatter)
 
@@ -59,8 +61,16 @@ except Exception as e:
     print("Error")
     print(e)
  
+ # Convert XML to HTML
+try:
+    blast_path = args['output_folder'] + "ej4.blast"
+    html_path = args['output_folder'] + "ej4.html"
+    convert_xml_to_html.convert(blast_path, html_path)
+    print(f"HTML output succesfully generated at {html_path}")
 
-
+except Exception as e:
+    print("Error: could not convert XML to HTML")
+    print(e)
 
  
 

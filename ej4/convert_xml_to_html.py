@@ -110,7 +110,41 @@ html_start = '''<!DOCTYPE html>
 <html>
 <head>
 <title>Blast Result</title>
-<link rel="stylesheet" href="blast_styling.css">
+<style>
+.header-hit {
+   border-style: solid; 
+   border-color: #0d490582;
+   border-radius: 8px 8px 0px 0px;
+   background-color: #0d49051b;
+   margin-top: 2em;
+   max-width: 1080px;
+   margin-bottom: 0px;
+}
+
+.header-hit > p {
+    margin: 0.5em;
+}
+
+ul.header-hit-info > li {
+    display: inline;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.hsp-body {
+    border-style: solid;
+   border-color: #0d49055f;
+   border-radius: 0px 0px 8px 8px;
+   background-color: #0d49051b;
+   max-width: 1080px;
+   background-clip: padding-box;
+   overflow-wrap: break-word;
+}
+
+.hsp-body > p {
+    margin: 0.5em;
+}
+</style>
 </head>
 <body>'''
 
