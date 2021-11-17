@@ -11,6 +11,7 @@ sudo apt-get update
 sudo apt-get install python3.8
 pip install biopython
 ```
+
 Una vez corridos estos comandos, ya tendrá instalado Python 3 y las librerías de BioPython.
 
 ## Ejercicio 1
@@ -52,7 +53,7 @@ optional arguments:
   -e EVALUE       Expect value for saving hits
 ```
 
-La consulta BLAST se puede realizar tanto de manera remota como local. 
+La consulta BLAST se puede realizar tanto de manera remota como local.
 Por ejemplo, para correr el script utilizando la base de datos de NCBI remota:
 
 ```
@@ -97,4 +98,46 @@ Una vez instalada la herramienta, se puede agregar el directorio del ejecutable 
 
 ```
 python .\multiple_alignment.py -i .\files\SOD1_sequences.fasta -clustalw 'C:\ClustalW2\clustalw2.exe' -o "output.aln"
+```
+
+## Ejercicio 4
+
+El script de este ejercicio toma como entrada el BLAST output del ejercicio 2 y un pattern y busca ese pattern dentro de la descripcion de ese BLAST. utiliza la libreria beautifulsoup4, la cual requiere instalacion
+
+```
+pip install bs4 o pip install beautifulsoup4
+```
+
+Una vez instalada la libreria:
+
+```
+usage: ej4.py [-h] -p PATTERN [-i INPUT] [-o OUTPUT_FOLDER]
+
+Blast Parser
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -p PATTERN, --pattern PATTERN
+                        Pattern determinado a buscar
+  -i INPUT, --input INPUT
+                        path al archivo a parsear
+  -o OUTPUT_FOLDER, --output_folder OUTPUT_FOLDER
+                        carpeta donde guardar el archivo de salida
+```
+
+## Ejercicio 5
+
+Este ejercicio contiene dos archivos, uno que busca los ORF posibles, y otro los motivos, ambos scripts de bash.
+Se requeire la instalacion de EMBOSS
+
+```
+sudo apt-get install -y emboss
+```
+
+```
+bash ./posibleORF.sh -m minSize -s pathInputSequence -o pathOutputSequence
+```
+
+```
+bash ./prositeAnalysis.sh -s pathInputSequence -o pathOutputSequence
 ```
