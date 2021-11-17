@@ -2,8 +2,8 @@
 
 # default values
 declare sequence outseq
-sequence="sod1_mrna.orf"
-outseq="sod1_mrna.patmatmotifs"
+sequence="files/sod1_mrna.orf"
+outseq="files/sod1_mrna.patmatmotifs"
 
 while getopts s:o: flag
 do

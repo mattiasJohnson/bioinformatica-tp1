@@ -1,12 +1,12 @@
 ########################################
 # Program: patmatmotifs
-# Rundate: Mon 15 Nov 2021 22:25:40
+# Rundate: Wed 17 Nov 2021 13:13:03
 # Commandline: patmatmotifs
 #    -full
-#    -sequence sod1_mrna.orf
-#    -outfile sod1_mrna.patmatmotifs
+#    -sequence files/sod1_mrna.orf
+#    -outfile files/sod1_mrna.patmatmotifs
 # Report_format: dbmotif
-# Report_file: sod1_mrna.patmatmotifs
+# Report_file: files/sod1_mrna.patmatmotifs
 ########################################
 
 #=======================================

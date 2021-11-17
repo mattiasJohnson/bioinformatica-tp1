@@ -3,8 +3,8 @@
 # default values
 declare minsize sequence outseq
 minsize="200"
-sequence="sod1_mrna.gb"
-outseq="sod1_mrna.orf"
+sequence="files/sod1_mrna.gb"
+outseq="files/sod1_mrna.orf"
 
 while getopts m:s:o: flag
 do
