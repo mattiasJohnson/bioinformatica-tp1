@@ -43,10 +43,10 @@ try:
         html=parent.prettify("utf-8")
         output.write(str(parent))
 
-    end ='''<Iteration_hits>
-            <Iteration>
-            <BlastOutput_iterations>
-            <BlastOutput>'''
+    end ='''</Iteration_hits>
+            </Iteration>
+            </BlastOutput_iterations>
+            </BlastOutput>'''
     
     output.write(end)
     input.close()
